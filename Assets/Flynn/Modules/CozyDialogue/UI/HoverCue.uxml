@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Flynn/Modules/CozyDialogue/UI/theme.uss?fileID=7433441132597879392&amp;guid=f3549c7e273a7fe4f9f149f685d2d988&amp;type=3#theme" />
+    <ui:VisualElement name="hovercue" picking-mode="Ignore" class="hovercue hovercue--in hovercue--chat">
+        <ui:VisualElement picking-mode="Ignore" class="hovercue__icon" />
+        <ui:VisualElement picking-mode="Ignore" class="hovercue__chat">
+            <ui:VisualElement picking-mode="Ignore" class="hovercue__chat-tail" />
+        </ui:VisualElement>
+        <ui:VisualElement picking-mode="Ignore" class="hovercue__badge">
+            <ui:VisualElement picking-mode="Ignore" class="hovercue__badge-diamond" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

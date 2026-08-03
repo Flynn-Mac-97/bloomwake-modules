@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="theme.uss" />
+    <ui:VisualElement class="alert alert--in">
+        <ui:Label name="tile" class="alert__tile alert__tile--green" text="KN" />
+        <ui:VisualElement class="alert__body">
+            <ui:VisualElement class="alert__cat-row">
+                <ui:VisualElement class="alert__dot" />
+                <ui:Label name="cat" class="alert__cat" text="KNOWLEDGE UPDATED" />
+            </ui:VisualElement>
+            <ui:Label name="name" class="alert__name" text="Signal Heart" />
+            <ui:Label name="view" class="alert__view" text="VIEW →" />
+        </ui:VisualElement>
+        <ui:Label name="dismiss" class="alert__x" text="×" />
+    </ui:VisualElement>
+</ui:UXML>

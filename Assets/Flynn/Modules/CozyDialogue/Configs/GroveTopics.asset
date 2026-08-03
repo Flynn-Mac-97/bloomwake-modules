@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b827605487753674b8e6278d9169dc16, type: 3}
+  m_Name: GroveTopics
+  m_EditorClassIdentifier: 
+  topics:
+  - id: rowan
+    displayName: Rowan
+    summary: Grovekeeper. Tends the mossy hollow and listens to it more than he talks.
+    lockedHint: Someone tends this grove.
+    corrupted: 0
+    category: 1
+  - id: wind-chorus
+    displayName: Wind chorus
+    summary: The grove hums when the morning wind threads the hollow reeds.
+    lockedHint: Something is humming out there.
+    corrupted: 0
+    category: 0
+  - id: moss-lantern
+    displayName: Moss lantern
+    summary: An old lantern kept alive by luminous moss. The casing still hums faintly.
+    lockedHint: That old lantern looks like it has a story.
+    corrupted: 0
+    category: 0
+  - id: etched-shard
+    displayName: Etched shard
+    summary: A shard etched with tide-marks. It names the storm that woke the grove.
+    lockedHint: Unreadable etchings. The Transmitter might help.
+    corrupted: 1
+    category: 2

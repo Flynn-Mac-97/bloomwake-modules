@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2491450fb7881741afe3a1f0166722d, type: 3}
+  m_Name: Bark_Rowan
+  m_EditorClassIdentifier: 
+  speaker: "Rowan \xB7 Grovekeeper"
+  line: The grove sounds softer today.
+  replyA:
+    label: Softer?
+    reaction: Like it stopped holding its breath.
+    trustDelta: 1
+  replyB:
+    label: Just passing through.
+    reaction: Mm. Moss hums either way.
+    trustDelta: 0
+  allowResponses: 0
+  chatConversation: {fileID: 11400000, guid: 264e0c502edda7b4290ff0919910b16f, type: 2}
+  triggerRadius: 2.2
+  timeout: 8
+  cooldown: 25

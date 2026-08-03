@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1316154081344826344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8319503795817190347}
+  - component: {fileID: 2640586468770591344}
+  - component: {fileID: 8098578785478281075}
+  - component: {fileID: 4657240629131098235}
+  - component: {fileID: 4296210357825824145}
+  - component: {fileID: 3232839969700285650}
+  - component: {fileID: 4274738677137810875}
+  - component: {fileID: 6927082058272030116}
+  m_Layer: 0
+  m_Name: CozyDialogueUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8319503795817190347
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316154081344826344}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2640586468770591344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316154081344826344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PanelSettings: {fileID: 11400000, guid: 046c4fa0ca3d8714a9f25b23b0cdebd1, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 0}
+  m_SortingOrder: 0
+--- !u!114 &8098578785478281075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316154081344826344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80439280124feb14f93f016848630b07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theme: {fileID: 7433441132597879392, guid: f3549c7e273a7fe4f9f149f685d2d988, type: 3}
+  topBarUxml: {fileID: 9197481963319205126, guid: 4296aaa33fc4724498f67a837072ca8d, type: 3}
+  alertUxml: {fileID: 9197481963319205126, guid: f6c5e33ae7dc7bc469991e37acf6784c, type: 3}
+  knowledge: {fileID: 0}
+  archive: {fileID: 4296210357825824145}
+  locationName: Mosslight Clearing
+  alertHold: 8
+--- !u!114 &4657240629131098235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316154081344826344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e8914c057f685f4ca7758b30d8b29b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hud: {fileID: 8098578785478281075}
+  dialogueUxml: {fileID: 9197481963319205126, guid: 1e98acc9168843140ad363061b0e6db8, type: 3}
+  style: {fileID: 11400000, guid: e106a2b9c9546814bb629194d30eee08, type: 2}
+  knowledge: {fileID: 0}
+  portrait: {fileID: 2800000, guid: 83959c79b70363844abfd90abe162ff3, type: 3}
+  unheardLine: Hm. Say it another way, maybe?
+  pageCharBudget: 130
+  fadeBand: 24
+--- !u!114 &4296210357825824145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316154081344826344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e13bbc512054704482f6b0f0f2cfa97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hud: {fileID: 8098578785478281075}
+  knowledge: {fileID: 0}
+  drawerUxml: {fileID: 9197481963319205126, guid: 2125bc7d260ca1545a8bc0389a8e9580, type: 3}
+  personPortrait: {fileID: 2800000, guid: 83959c79b70363844abfd90abe162ff3, type: 3}
+  toggleKey: 121
+--- !u!114 &3232839969700285650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316154081344826344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af9dc703a5142574980910f4751b160d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hud: {fileID: 8098578785478281075}
+  bubbleUxml: {fileID: 9197481963319205126, guid: 35da1acf2cc20bb4b95cf2181b6386a2, type: 3}
+  style: {fileID: 11400000, guid: e106a2b9c9546814bb629194d30eee08, type: 2}
+  hold: 4.6
+  heightOffset: 0.8
+  voicePitch: 1.2
+--- !u!114 &4274738677137810875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316154081344826344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 898a3d7a053462b4f96642455cec888a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hud: {fileID: 8098578785478281075}
+  cueUxml: {fileID: 9197481963319205126, guid: 5803a19d6faee144b8108ca5f69eddd6, type: 3}
+  dialogue: {fileID: 4657240629131098235}
+  knowledge: {fileID: 0}
+  archive: {fileID: 4296210357825824145}
+  followSpeed: 14
+--- !u!114 &6927082058272030116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316154081344826344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7380db68d0080341a9d602f2f792d24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: {fileID: 4657240629131098235}
+  _hover: {fileID: 4274738677137810875}
+  _tag: {fileID: 3232839969700285650}
+  _archive: {fileID: 4296210357825824145}
+  _hud: {fileID: 8098578785478281075}

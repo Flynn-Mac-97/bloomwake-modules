@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd934c74613bf9548b32a1bb527ff8ac, type: 3}
+  m_Name: TransmitterConversation
+  m_EditorClassIdentifier: 
+  startNodeId: start
+  nodes:
+  - id: start
+    speaker: Transmitter
+    line: The dish hums, half-awake. Somewhere under the static there is a voice
+      that has been waiting.
+    discoverTopicId: 
+    choices:
+    - label: Listen closer.
+      nextId: more
+      requiredTopicId: 
+      requiredTrust: 0
+      lockedReason: 
+      isLeave: 0
+      isKey: 1
+    - label: Leave it be.
+      nextId: 
+      requiredTopicId: 
+      requiredTrust: 0
+      lockedReason: 
+      isLeave: 1
+      isKey: 0
+  - id: more
+    speaker: Transmitter
+    line: Not words yet. A rhythm, patient as tide. Whoever is sending it expects
+      you to still be here tomorrow.
+    discoverTopicId: 
+    choices:
+    - label: Stay a while, then go.
+      nextId: 
+      requiredTopicId: 
+      requiredTrust: 0
+      lockedReason: 
+      isLeave: 1
+      isKey: 0

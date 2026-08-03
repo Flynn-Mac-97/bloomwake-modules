@@ -1,0 +1,18 @@
+{
+    "name": "Flynn.PlayerInventory",
+    "rootNamespace": "Flynn.Player",
+    "references": [
+        "Flynn.Base",
+        "Flynn.Contracts",
+        "Flynn.Npc"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

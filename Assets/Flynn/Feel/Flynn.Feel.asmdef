@@ -1,0 +1,16 @@
+{
+    "name": "Flynn.Feel",
+    "rootNamespace": "Flynn.Feel",
+    "references": [
+        "PrimeTween.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

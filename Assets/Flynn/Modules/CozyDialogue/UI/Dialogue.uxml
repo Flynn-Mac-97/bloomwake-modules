@@ -1,0 +1,64 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Flynn/Modules/CozyDialogue/UI/theme.uss?fileID=7433441132597879392&amp;guid=f3549c7e273a7fe4f9f149f685d2d988&amp;type=3#theme" />
+    <ui:VisualElement name="dialogue-root" picking-mode="Ignore" class="dialogue-root">
+        <ui:VisualElement name="portrait" picking-mode="Ignore" class="portrait portrait--in" />
+        <ui:VisualElement name="dialogue-box" class="dialogue-box dialogue-box--open">
+            <ui:VisualElement name="dialogue-tail" picking-mode="Ignore" class="dialogue-tail" style="rotate: 45deg;" />
+            <ui:VisualElement name="name-badge" class="badge badge--name">
+                <ui:Label name="npc-name" text="Luma" class="badge__name" />
+                <ui:Label name="npc-role" text="Salvager" class="badge__role" />
+                <ui:VisualElement name="trust-chip" class="trust-chip">
+                    <ui:VisualElement class="trust-chip__icon" />
+                    <ui:Label name="trust-count" text="2" class="trust-chip__count" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="leave-badge" class="badge badge--leave">
+                <ui:VisualElement class="badge__leave-icon" />
+                <ui:Label text="Leave" class="badge__leave-text" />
+            </ui:VisualElement>
+            <ui:ScrollView name="dialogue-scroll" mode="Vertical" class="dialogue-scroll dialogue-scroll--settled">
+                <ui:Label text="The relay hums like it&apos;s dreaming. Something inside is still trying to speak." class="dialogue-line para para--old" />
+                <ui:Label text="I first caught it by the reed hollow, a low warm note under the wind." class="dialogue-line para" />
+            </ui:ScrollView>
+            <ui:VisualElement name="proceed" picking-mode="Ignore" class="proceed proceed--in" />
+            <ui:VisualElement name="choices" class="choices choices--open">
+                <ui:VisualElement class="choice choice--in">
+                    <ui:VisualElement class="choice__bullet" />
+                    <ui:Label text="Ask about the hum" />
+                </ui:VisualElement>
+                <ui:VisualElement class="choice choice--in">
+                    <ui:VisualElement class="choice__bullet choice__bullet--hot" />
+                    <ui:Label text="Ask what it contained" />
+                </ui:VisualElement>
+                <ui:VisualElement class="choice choice--in choice--locked">
+                    <ui:VisualElement class="choice__lock" />
+                    <ui:Label text="Ask about the eastern ridge" />
+                    <ui:Label text="EARN MORE TRUST" class="choice__hint" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="say-row" class="say-row say-row--open">
+                <ui:TextField name="say-input" value="…or say it in your own words" class="say-input" />
+                <ui:Button name="say-send" class="say-send">
+                    <ui:VisualElement class="say-send__icon" />
+                </ui:Button>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="termcard" class="termcard termcard--in">
+            <ui:VisualElement class="termcard__panel">
+                <ui:Label text="FIELD RECORD" class="termcard__label" />
+                <ui:Label name="termcard-body" text="A Chorus component used to store and transmit messages across relay stations." class="termcard__body" />
+                <ui:VisualElement class="termcard__note">
+                    <ui:Label text="FIELD NOTE" class="termcard__note-label" />
+                    <ui:Label name="termcard-note" text="“Warm to the touch, even now.”" class="termcard__note-text" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="termcard__tab" style="top: -38px; left: 18px; background-color: rgb(249, 214, 162);">
+                <ui:Label name="termcard-tab" text="Signal Heart" class="termcard__tab-text" />
+                <ui:VisualElement class="termcard__tab-dot">
+                    <ui:VisualElement class="termcard__tab-diamond" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Label name="termcard-close" text="×" class="termcard__x" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

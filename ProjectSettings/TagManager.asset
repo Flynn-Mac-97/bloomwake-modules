@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Grappleable
+  - Pickup
+  - WaterInteraction
+  - POST
+  - ShadowCaster
+  - PlatformBorder
+  - GroundBorder
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Level0
+    uniqueID: 1355154012
+    locked: 0
+  - name: Level1
+    uniqueID: 1936553719
+    locked: 0
+  - name: Level2
+    uniqueID: 192354598
+    locked: 0
+  - name: Level3
+    uniqueID: 773754305
+    locked: 0

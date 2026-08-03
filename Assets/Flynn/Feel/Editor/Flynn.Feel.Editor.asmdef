@@ -1,0 +1,19 @@
+{
+    "name": "Flynn.Feel.Editor",
+    "rootNamespace": "Flynn.Feel.Editor",
+    "references": [
+        "Flynn.Feel",
+        "Unity.RenderPipelines.Universal.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9602eed6868c01345bc82dddc97e8e03, type: 3}
+  m_Name: Kind_ReedBed
+  m_EditorClassIdentifier: 
+  jsonTypeId: 2006
+  displayName: Reed Bed
+  promptVerb: Harvest
+  prefab: {fileID: 2166914340387858569, guid: 094f08d6d8b0a2648b949b999c110a56, type: 3}
+  positionJitter: 0.2
+  regrowSeconds: 20
+  regrowJitter: 5
+  regrowEaseSeconds: 0.4

@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="theme.uss" />
+    <ui:VisualElement name="bark" class="bark bark--in">
+        <ui:VisualElement class="bark__bubble">
+            <ui:Label name="bark-line" class="bark__line" text="The grove sounds softer today." />
+        </ui:VisualElement>
+        <ui:VisualElement class="bark__tail" />
+        <ui:VisualElement name="bark-replies" class="bark__replies">
+            <ui:Label name="bark-reply-a" class="bark__reply" text="Different good?" />
+            <ui:Label name="bark-reply-b" class="bark__reply" text="Just passing through." />
+            <ui:Label name="bark-chat" class="bark__reply bark__reply--chat" text="Chat" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

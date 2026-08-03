@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9602eed6868c01345bc82dddc97e8e03, type: 3}
+  m_Name: Kind_ScrapPile
+  m_EditorClassIdentifier: 
+  jsonTypeId: 2007
+  displayName: Scrap Pile
+  promptVerb: Salvage
+  prefab: {fileID: 2166914340387858569, guid: 80aa2708cc654eb49bb8caffbdd43544, type: 3}
+  positionJitter: 0.14
+  regrowSeconds: 0
+  regrowJitter: 0
+  regrowEaseSeconds: 0.45

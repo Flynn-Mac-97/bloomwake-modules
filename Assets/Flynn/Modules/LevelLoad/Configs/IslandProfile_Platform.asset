@@ -1,0 +1,244 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 117282b8ab7a1ae4ebb2f5b8bcc1fe9a, type: 3}
+  m_Name: IslandProfile_Platform
+  m_EditorClassIdentifier: 
+  contour:
+    boundaryMode: 1
+    tangentMode: 1
+    inset: 1.68
+    tangentLength: 0.338
+  skirtShape:
+    thickness: 0.95
+    profile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -0.008146239
+        value: 0.046923444
+        inSlope: 9.173483
+        outSlope: 9.173483
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.18126792
+      - serializedVersion: 3
+        time: 0.097958535
+        value: 1.2426764
+        inSlope: 0.92672855
+        outSlope: 0.92672855
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.05916686
+      - serializedVersion: 3
+        time: 0.117830634
+        value: 1.1614102
+        inSlope: 0.46317115
+        outSlope: 0.06360951
+        tangentMode: 65
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.14197253
+        value: 1.1629459
+        inSlope: 0.06360951
+        outSlope: 0.83422023
+        tangentMode: 69
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.38267028
+        value: 1.3637408
+        inSlope: 0.83422023
+        outSlope: -2.2889988
+        tangentMode: 69
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.8648605
+        value: 0.26000798
+        inSlope: -5.198978
+        outSlope: -5.198978
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.17144255
+      - serializedVersion: 3
+        time: 0.9729629
+        value: -0.97707134
+        inSlope: -20.576408
+        outSlope: -20.576408
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.13834968
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    profileStrength: 0.1
+    bulgeSmoothing: 0.1
+    rows: 8
+    spacing: 0.1
+    topInset: 0
+    taperColumns: 0
+    bridgeGaps: 5
+  skirtShading:
+    shadeStrength: 0.996
+    shadeLightAngle: 246
+    layerShade: 0.433
+    creviceAO: 0.579
+  erosion:
+    noiseStrength: 0
+    depthJitter: 0
+    noiseScale: 0.05
+    seed: 150
+  fill:
+    baseTint: {r: 0.6666667, g: 0.86666673, b: 0.43137258, a: 1}
+    falloffEnabled: 1
+    falloffWidth: 0.05
+    edgeDarken: 0
+    falloffPower: 0.25
+    edgeTint: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 1}
+    rollAmount: 0
+    rollPower: 0.5
+    detailTexture: {fileID: 2800000, guid: 329f7f279e3b7314f859f0bbbd7eeb44, type: 3}
+    detailScale: 5.44
+    detailStrength: 1
+    detailAspect: 0.5
+    detailAntiTile: 0
+    varStrength: 0.209
+    varScale: 1.5
+    varTintA: {r: 0.5803922, g: 0.86666673, b: 0.31764707, a: 1}
+    varTintB: {r: 1, g: 1, b: 1, a: 1}
+    gridColor: {r: 0, g: 0, b: 0, a: 0.85882354}
+    gridThickness: 0.005
+    gridSoftness: 0
+    gridCell: {x: 0.5, y: 0.25}
+    gridOffset: {x: -0.92, y: 0.95}
+    gridEdgeFade: 0.222
+    bandedLight: 0
+    lightBands: 1
+    bandSoftness: 0.133
+    bandWobble: 0.248
+    bandWobbleScale: 3.13
+    shadowTint: {r: 0.6033731, g: 0.63796526, b: 0.8584906, a: 1}
+    paintLayersEnabled: 1
+    brushTex1: {fileID: 2800000, guid: c7a0fbbd33fd69d4aa5bad28cc11f8e9, type: 3}
+    brushTex2: {fileID: 2800000, guid: c7a0fbbd33fd69d4aa5bad28cc11f8e9, type: 3}
+    paintLayers:
+    - color: {r: 0.7735849, g: 0.74115914, b: 0, a: 0.12156863}
+      blendMode: 4
+      noiseScale: 0.25
+      noiseThreshold: 0
+      edgeSoftness: 0.106
+      noiseOffset: 0
+      brushSheet: 0
+      brushScale: 3.07
+      edgeBreak: 0.83
+      brushRange: {x: 0, y: 0}
+      brushGrid: {x: 4, y: 4}
+    - color: {r: 0.37525043, g: 0.5377358, b: 0.18009079, a: 0.38431373}
+      blendMode: 1
+      noiseScale: 0.68
+      noiseThreshold: 0.695
+      edgeSoftness: 0.106
+      noiseOffset: 0
+      brushSheet: 0
+      brushScale: 3.09
+      edgeBreak: 0.83
+      brushRange: {x: 0, y: 0}
+      brushGrid: {x: 3, y: 3}
+  skirtSurface:
+    topColor: {r: 0.7566299, g: 1, b: 0.74056596, a: 1}
+    midColor: {r: 1, g: 1, b: 1, a: 1}
+    bottomColor: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
+    grassDepth: 0.182
+    blendSoftness: 0.162
+    detailTexture: {fileID: 2800000, guid: 41f23a236ad1f8d4eb0bbac225362ee5, type: 3}
+    detailScale: 0.22
+    detailStrength: 0.662
+    strataCount: 6.1
+    strataDarken: 0.055
+    strataWarp: 2
+    topShadow: 0.622
+    topShadowDepth: 0.069
+    fadeStart: 0.363
+  skirtSprite:
+    rockSprite: {fileID: 91135141, guid: cb88f92395dd6de4b950b0506b727471, type: 3}
+    rockVariants:
+    - {fileID: -602362327, guid: cb88f92395dd6de4b950b0506b727471, type: 3}
+    - {fileID: 91135141, guid: cb88f92395dd6de4b950b0506b727471, type: 3}
+    tileCountH: 1.03
+    platformTileAspect: 1.8
+    baseFillColor: {r: 0, g: 0.12156863, b: 0.078431375, a: 1}
+    overlap: 0.8
+    overlapShade: 0.355
+    mirrorTiles: 0
+    bottomJitter: 0.035
+    sideJitter: 0
+    layerBlendSoft: 0.397
+    shadowDist: 0.11069306
+    alphaCutoff: 0.2
+    grassDepth: 0.159
+    grassColor: {r: 1, g: 1, b: 1, a: 1}
+    grassBlendSoft: 0.0474
+    backLayerEnable: 1
+    backOffsetH: 0.5
+    backOffsetV: 0.15
+    backShade: 0.239
+    backScale: 1.1
+    useShinglePlanes: 0
+    shingleWidth: 1
+    shingleHeight: 1
+    shingleShadowStrength: 0.6
+    shingleShadowStart: 0
+    shingleShadowSoft: 0.5
+    tint: {r: 1, g: 1, b: 1, a: 1}
+  fringe:
+    enabled: 1
+    stripTexture: {fileID: 2800000, guid: 75eefe9a7994e544d9e608dcf0042251, type: 3}
+    artColored: 1
+    artBlend: 0.387
+    artRecolor: 0.38364255
+    texScale: 0.66
+    innerOverlap: 0.023
+    reach: 0.13
+    droop: 0.023
+    upFold: 1
+    rows: 2
+    smoothing: 0.5
+    vInner: 0.275
+    vOuter: 1
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    tipDarken: 0
+    orderOffset: 1
+  decals:
+    enabled: 0
+    decalSprites:
+    - {fileID: -170313667, guid: 88afd680da69e494fba4c665b44a5fbc, type: 3}
+    density: 0.41
+    sizeMin: 0.3
+    sizeMax: 0.7
+    bandHeight: 0.91
+    pokeOut: -0.26
+    seed: 48
+    orderOffset: 1
+  rendering:
+    sortingLayer: 
+    sortingOrderOffset: -2
+  fillShader: {fileID: 4800000, guid: b2f8beadbb6e95e4ab58f500830d4950, type: 3}
+  skirtShader: {fileID: 4800000, guid: b3a06837c7d3f68488f2259dd4e54a98, type: 3}
+  fringeShader: {fileID: 4800000, guid: 4de4747f6dc213c458a49859fc4d5a7f, type: 3}

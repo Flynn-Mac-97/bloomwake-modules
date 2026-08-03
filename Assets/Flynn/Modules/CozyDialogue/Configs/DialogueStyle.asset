@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35c8690e2141b524bb31f81bb6bc9460, type: 3}
+  m_Name: DialogueStyle
+  m_EditorClassIdentifier: 
+  panelSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  panelWidth: 1100
+  panelHeight: 230
+  bottomMargin: 48
+  padding: 28
+  nameSize: 24
+  bodySize: 30
+  charsPerSecond: 30
+  sentencePauseMult: 6
+  commaPauseMult: 3
+  blip: {fileID: 8300000, guid: c80d78d481648d34b89334cba9fb8633, type: 3}
+  blipEveryN: 2
+  blipPitchJitter: 0.1
+  blipVolume: 0.3
+  appearDuration: 0.25
+  exitDuration: 0.2
+  pressDip: 0.98
+  arrowBobAmplitude: 7
+  arrowBobPeriod: 0.9

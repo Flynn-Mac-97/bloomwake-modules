@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a7c25a3464173147a715382c0c8ada6, type: 3}
+  m_Name: Aesthetic_HighlandIsle
+  m_EditorClassIdentifier: 
+  note: "Elevated-terrace isle look \u2014 visually distinct from the base grass
+    isle; tune Highland profile."
+  stackTemplate: {fileID: 7245037769071540333, guid: 4bd9f25916b96034c871cd4e86e7a948, type: 3}
+  profile: {fileID: 11400000, guid: d9325257fe015244ab7356a9b89e525e, type: 2}
+  spriteShapeOverride: {fileID: 0}

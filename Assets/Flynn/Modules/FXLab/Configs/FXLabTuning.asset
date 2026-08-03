@@ -1,0 +1,3884 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f1aa260666d821488678b21dd35bfcd, type: 3}
+  m_Name: FXLabTuning
+  m_EditorClassIdentifier: 
+  flash:
+    color: {r: 1, g: 0.92, b: 0.75, a: 1}
+    peak: 1
+    attack: 0.02
+    decay: 0.14
+    sfx:
+      sound: {fileID: 0}
+      clip: {fileID: 0}
+      variants: []
+      volume: 0.8
+      pitchJitter: 0.06
+      trimStart: 0.014005248
+      trimEnd: 0.48869494
+      delay: 0
+  squash:
+    punch: 0.03
+    duration: 0.1
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    anchorBottom: 1
+    sfx:
+      sound: {fileID: 0}
+      clip: {fileID: 0}
+      variants: []
+      volume: 0.8
+      pitchJitter: 0.06
+      trimStart: 0.014005248
+      trimEnd: 1
+      delay: 0
+  hitStop:
+    duration: 0.055
+    timeScale: 0.05
+  nudge:
+    amplitude: 0.035
+    rotationDeg: 0.3
+    duration: 0.2
+    frequency: 16
+  puff:
+    count: 3
+    sprites:
+    - {fileID: 1317625245, guid: ce9ddfa8e25947a4988539c6b1d0db2a, type: 3}
+    - {fileID: -104986429, guid: ce9ddfa8e25947a4988539c6b1d0db2a, type: 3}
+    - {fileID: 1006218562, guid: ce9ddfa8e25947a4988539c6b1d0db2a, type: 3}
+    colors:
+    - {r: 1, g: 1, b: 1, a: 1}
+    - {r: 1, g: 1, b: 1, a: 1}
+    - {r: 1, g: 1, b: 1, a: 1}
+    speed: 0.6
+    gravity: 0
+    life: 0.5
+    size: 0.4
+    upBias: 0.174
+    spinDegrees: 29.95
+    scaleIn: 0.716
+    shrink: 0.109
+    fadeStart: 0.09
+    anim:
+      frames: []
+      sheet: {fileID: 0}
+      cellSize: 96
+      cellHeight: 0
+      cellRects: []
+      row: 1
+      frameCount: 7
+      fps: 24
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      flipY: 0
+      angleOffsetDeg: 0
+      worldSize: 1
+      forwardOffset: 0
+      offsetY: 0
+      glow: 0
+      glowTint: {r: 1, g: 0.85, b: 0.53, a: 1}
+      glowAlpha: 0.5
+      glowScale: 1.25
+      ghostCount: 0
+      ghostFrameLag: 1
+      ghostAlphaFalloff: 0.45
+      ghostTint: {r: 1, g: 1, b: 1, a: 0.6}
+      sfx:
+        sound: {fileID: 0}
+        clip: {fileID: 0}
+        variants: []
+        volume: 0.8
+        pitchJitter: 0.06
+        trimStart: 0
+        trimEnd: 1
+        delay: 0
+    animOverLife: 1
+    sfx:
+      sound: {fileID: 0}
+      clip: {fileID: 0}
+      variants: []
+      volume: 1
+      pitchJitter: 0.06
+      trimStart: 0.22227937
+      trimEnd: 0.32607603
+      delay: 0
+  puffSheet:
+    count: 4
+    sprites: []
+    colors: []
+    speed: 0
+    gravity: 0
+    life: 0.35
+    size: 0.3
+    upBias: 0.115
+    spinDegrees: 0
+    scaleIn: 0.177
+    shrink: 0.385
+    fadeStart: 0.131
+    anim:
+      frames:
+      - {fileID: 60000292, guid: ce9ddfa8e25947a4988539c6b1d0db2a, type: 3}
+      - {fileID: 1317625245, guid: ce9ddfa8e25947a4988539c6b1d0db2a, type: 3}
+      - {fileID: 1351143826, guid: ce9ddfa8e25947a4988539c6b1d0db2a, type: 3}
+      - {fileID: 1573142389, guid: ce9ddfa8e25947a4988539c6b1d0db2a, type: 3}
+      - {fileID: 1605297545, guid: ce9ddfa8e25947a4988539c6b1d0db2a, type: 3}
+      - {fileID: -885608194, guid: ce9ddfa8e25947a4988539c6b1d0db2a, type: 3}
+      sheet: {fileID: 0}
+      cellSize: 96
+      cellHeight: 0
+      cellRects: []
+      row: 1
+      frameCount: 7
+      fps: 23.503454
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      flipY: 0
+      angleOffsetDeg: 0
+      worldSize: 1
+      forwardOffset: 0
+      offsetY: 0
+      glow: 0
+      glowTint: {r: 1, g: 0.85, b: 0.53, a: 1}
+      glowAlpha: 0.5
+      glowScale: 1.25
+      ghostCount: 0
+      ghostFrameLag: 1
+      ghostAlphaFalloff: 0.45
+      ghostTint: {r: 1, g: 1, b: 1, a: 0.6}
+      sfx:
+        sound: {fileID: 0}
+        clip: {fileID: 0}
+        variants: []
+        volume: 0.8
+        pitchJitter: 0.06
+        trimStart: 0
+        trimEnd: 1
+        delay: 0
+    animOverLife: 1
+    sfx:
+      sound: {fileID: 0}
+      clip: {fileID: 0}
+      variants: []
+      volume: 1
+      pitchJitter: 0.06
+      trimStart: 0.018265238
+      trimEnd: 0.25091308
+      delay: 0
+  ring:
+    color: {r: 1, g: 0.85, b: 0.53, a: 0.8}
+    startRadius: 0.06
+    endRadius: 0.42
+    duration: 0.35
+    fade:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    sfx:
+      sound: {fileID: 0}
+      clip: {fileID: 0}
+      variants: []
+      volume: 1
+      pitchJitter: 0.06
+      trimStart: 0
+      trimEnd: 1
+      delay: 0
+  sparkle:
+    count: 6
+    color: {r: 1, g: 0.84705883, b: 0.5294118, a: 1}
+    riseSpeed: 0.35
+    life: 0.9
+    twinkleHz: 5
+    size: 0.04
+    sfx:
+      sound: {fileID: 0}
+      clip: {fileID: 8300000, guid: 8b2c63e124c697348bcac88be41835ac, type: 3}
+      variants: []
+      volume: 1
+      pitchJitter: 0.06
+      trimStart: 0
+      trimEnd: 1
+      delay: 0
+  arcWipe:
+    duration: 0.22
+    spanDegrees: 140
+    tailDegrees: 70
+    innerRadius: 0.3
+    outerRadius: 0.48
+    edgeSoft: 0.05
+    wobble: 0.02
+    color: {r: 1, g: 0.85, b: 0.53, a: 0.9}
+    worldSize: 1.6
+    sfx:
+      sound: {fileID: 11400000, guid: 9a6ce4e5601cf268d62e5f611f9fa8b7, type: 2}
+      clip: {fileID: 8300000, guid: 57589f45516475a43bde48ca99a85910, type: 3}
+      variants: []
+      volume: 1
+      pitchJitter: 0.06
+      trimStart: 0
+      trimEnd: 1
+      delay: 0
+  sheetSlash:
+    frames:
+    - {fileID: -154627386, guid: bcd46b422b1faca48a87dfae01c66879, type: 3}
+    - {fileID: 996093429, guid: bcd46b422b1faca48a87dfae01c66879, type: 3}
+    - {fileID: 510142842, guid: bcd46b422b1faca48a87dfae01c66879, type: 3}
+    - {fileID: -1499799466, guid: bcd46b422b1faca48a87dfae01c66879, type: 3}
+    sheet: {fileID: 2800000, guid: 0bd2c3bc194905649b38b7b374b7bea5, type: 3}
+    cellSize: 96
+    cellHeight: 0
+    cellRects: []
+    row: 3
+    frameCount: 7
+    fps: 12
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    flipY: 0
+    angleOffsetDeg: 0.42156202
+    worldSize: 0.7278684
+    forwardOffset: 0.1
+    offsetY: -0.35995305
+    glow: 0
+    glowTint: {r: 1, g: 1, b: 1, a: 0}
+    glowAlpha: 0.56
+    glowScale: 1.25
+    ghostCount: 0
+    ghostFrameLag: 1
+    ghostAlphaFalloff: 0.45
+    ghostTint: {r: 1, g: 1, b: 1, a: 0}
+    sfx:
+      sound: {fileID: 11400000, guid: 9a6ce4e5601cf268d62e5f611f9fa8b7, type: 2}
+      clip: {fileID: 8300000, guid: 3db29b9bd862d164597b05cd60b92275, type: 3}
+      variants: []
+      volume: 1
+      pitchJitter: 0.06
+      trimStart: 0.19580153
+      trimEnd: 0.5305356
+      delay: 0
+  arcRibbon:
+    duration: 0.2
+    windup: 0.06
+    sweepDeg: -120
+    contactAt: 0.55
+    radius: 0.62
+    width: 0.16
+    feather: 0.45
+    groundSquash: 0.62
+    aimIsScreenSpace: 1
+    segments: 28
+    tailFrac: 0.45
+    tailShape: 1.6
+    headBoost: 0.35
+    headWidth: 0.18
+    colorHead: {r: 1, g: 0.93, b: 0.72, a: 1}
+    colorTail: {r: 1, g: 0.78, b: 0.45, a: 1}
+    alpha: 0.9
+    sweepEase:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.15
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.4
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0.1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    sfx:
+      sound: {fileID: 11400000, guid: 9a6ce4e5601cf268d62e5f611f9fa8b7, type: 2}
+      clip: {fileID: 0}
+      variants: []
+      volume: 0.8
+      pitchJitter: 0.06
+      trimStart: 0
+      trimEnd: 1
+      delay: 0
+  sheetBurst:
+    frames: []
+    sheet: {fileID: 2800000, guid: b3e337b270904a14888341ebf08f790c, type: 3}
+    cellSize: 96
+    cellHeight: 0
+    cellRects: []
+    row: 0
+    frameCount: 8
+    fps: 24
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    flipY: 0
+    angleOffsetDeg: 0
+    worldSize: 1
+    forwardOffset: 0
+    offsetY: 0
+    glow: 0
+    glowTint: {r: 1, g: 0.85, b: 0.53, a: 1}
+    glowAlpha: 0.5
+    glowScale: 1.25
+    ghostCount: 0
+    ghostFrameLag: 1
+    ghostAlphaFalloff: 0.45
+    ghostTint: {r: 1, g: 1, b: 1, a: 0.6}
+    sfx:
+      sound: {fileID: 0}
+      clip: {fileID: 0}
+      variants: []
+      volume: 0.8
+      pitchJitter: 0.06
+      trimStart: 0
+      trimEnd: 1
+      delay: 0
+  hitWood:
+    arcVariant: 2
+    contactDelay: 0.0070004323
+    sfx:
+      sound: {fileID: 11400000, guid: 069c486d41f1675369dd2ae6f0912fab, type: 2}
+      clip: {fileID: 8300000, guid: 45a1925a24a806d4b95173f1a58109cb, type: 3}
+      variants: []
+      volume: 1
+      pitchJitter: 0.08
+      trimStart: 0.7936855
+      trimEnd: 0.8456287
+      delay: 0
+    flash:
+      color: {r: 1, g: 0.9, b: 0.7, a: 1}
+      peak: 1
+      attack: 0.02
+      decay: 0.14
+      sfx:
+        sound: {fileID: 0}
+        clip: {fileID: 0}
+        variants: []
+        volume: 0.8
+        pitchJitter: 0.06
+        trimStart: 0
+        trimEnd: 1
+        delay: 0
+    squash:
+      punch: 0.07337576
+      duration: 0.28
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      anchorBottom: 1
+      sfx:
+        sound: {fileID: 0}
+        clip: {fileID: 0}
+        variants: []
+        volume: 0.8
+        pitchJitter: 0.06
+        trimStart: 0
+        trimEnd: 1
+        delay: 0
+    puff:
+      count: 5
+      sprites:
+      - {fileID: -514267645, guid: 38e632df29909b249a382b2d53b7a50a, type: 3}
+      - {fileID: -1628692657, guid: 38e632df29909b249a382b2d53b7a50a, type: 3}
+      - {fileID: 691545206, guid: 38e632df29909b249a382b2d53b7a50a, type: 3}
+      colors: []
+      speed: 1.1
+      gravity: -2.6
+      life: 0.55
+      size: 1.5
+      upBias: 0.6
+      spinDegrees: 360
+      scaleIn: 0
+      shrink: 0.6
+      fadeStart: 0.6
+      anim:
+        frames: []
+        sheet: {fileID: 0}
+        cellSize: 96
+        cellHeight: 0
+        cellRects: []
+        row: 1
+        frameCount: 7
+        fps: 24
+        tint: {r: 1, g: 1, b: 1, a: 1}
+        flipY: 0
+        angleOffsetDeg: 0
+        worldSize: 1
+        forwardOffset: 0
+        offsetY: 0
+        glow: 0
+        glowTint: {r: 1, g: 0.85, b: 0.53, a: 1}
+        glowAlpha: 0.5
+        glowScale: 1.25
+        ghostCount: 0
+        ghostFrameLag: 1
+        ghostAlphaFalloff: 0.45
+        ghostTint: {r: 1, g: 1, b: 1, a: 0.6}
+        sfx:
+          sound: {fileID: 0}
+          clip: {fileID: 0}
+          variants: []
+          volume: 0.8
+          pitchJitter: 0.06
+          trimStart: 0
+          trimEnd: 1
+          delay: 0
+      animOverLife: 1
+      sfx:
+        sound: {fileID: 0}
+        clip: {fileID: 0}
+        variants: []
+        volume: 0.8
+        pitchJitter: 0.06
+        trimStart: 0
+        trimEnd: 1
+        delay: 0
+    burst:
+      frames: []
+      sheet: {fileID: 2800000, guid: b3e337b270904a14888341ebf08f790c, type: 3}
+      cellSize: 96
+      cellHeight: 0
+      cellRects: []
+      row: 1
+      frameCount: 11
+      fps: 24
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      flipY: 0
+      angleOffsetDeg: 0
+      worldSize: 1
+      forwardOffset: 0
+      offsetY: 0
+      glow: 0
+      glowTint: {r: 1, g: 0.85, b: 0.53, a: 1}
+      glowAlpha: 0.5
+      glowScale: 1.25
+      ghostCount: 0
+      ghostFrameLag: 1
+      ghostAlphaFalloff: 0.45
+      ghostTint: {r: 1, g: 1, b: 1, a: 0.6}
+      sfx:
+        sound: {fileID: 0}
+        clip: {fileID: 0}
+        variants: []
+        volume: 0.8
+        pitchJitter: 0.06
+        trimStart: 0
+        trimEnd: 1
+        delay: 0
+    hitStop: 1
+    cameraNudge: 1
+  hitMetal:
+    arcVariant: 2
+    contactDelay: 0.14
+    sfx:
+      sound: {fileID: 11400000, guid: 1ebd88484a36389dfaa9dd871c30f6fe, type: 2}
+      clip: {fileID: 8300000, guid: 69682555d44125241a9f3b0e09c54712, type: 3}
+      variants: []
+      volume: 1
+      pitchJitter: 0.05
+      trimStart: 0.4008921
+      trimEnd: 0.45113438
+      delay: 0
+    flash:
+      color: {r: 1, g: 1, b: 0.92, a: 1}
+      peak: 1
+      attack: 0.02
+      decay: 0.1
+      sfx:
+        sound: {fileID: 0}
+        clip: {fileID: 0}
+        variants: []
+        volume: 0.8
+        pitchJitter: 0.06
+        trimStart: 0
+        trimEnd: 1
+        delay: 0
+    squash:
+      punch: 0.12
+      duration: 0.2
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      anchorBottom: 1
+      sfx:
+        sound: {fileID: 0}
+        clip: {fileID: 0}
+        variants: []
+        volume: 0.8
+        pitchJitter: 0.06
+        trimStart: 0
+        trimEnd: 1
+        delay: 0
+    puff:
+      count: 5
+      sprites:
+      - {fileID: 1700958775, guid: 38e632df29909b249a382b2d53b7a50a, type: 3}
+      - {fileID: -104659622, guid: 38e632df29909b249a382b2d53b7a50a, type: 3}
+      colors: []
+      speed: 1.5
+      gravity: -4
+      life: 0.4
+      size: 1.6
+      upBias: 0.6
+      spinDegrees: 360
+      scaleIn: 0
+      shrink: 0.6
+      fadeStart: 0.6
+      anim:
+        frames: []
+        sheet: {fileID: 0}
+        cellSize: 96
+        cellHeight: 0
+        cellRects: []
+        row: 1
+        frameCount: 7
+        fps: 24
+        tint: {r: 1, g: 1, b: 1, a: 1}
+        flipY: 0
+        angleOffsetDeg: 0
+        worldSize: 1
+        forwardOffset: 0
+        offsetY: 0
+        glow: 0
+        glowTint: {r: 1, g: 0.85, b: 0.53, a: 1}
+        glowAlpha: 0.5
+        glowScale: 1.25
+        ghostCount: 0
+        ghostFrameLag: 1
+        ghostAlphaFalloff: 0.45
+        ghostTint: {r: 1, g: 1, b: 1, a: 0.6}
+        sfx:
+          sound: {fileID: 0}
+          clip: {fileID: 0}
+          variants: []
+          volume: 0.8
+          pitchJitter: 0.06
+          trimStart: 0
+          trimEnd: 1
+          delay: 0
+      animOverLife: 1
+      sfx:
+        sound: {fileID: 0}
+        clip: {fileID: 0}
+        variants: []
+        volume: 0.8
+        pitchJitter: 0.06
+        trimStart: 0
+        trimEnd: 1
+        delay: 0
+    burst:
+      frames: []
+      sheet: {fileID: 2800000, guid: b3e337b270904a14888341ebf08f790c, type: 3}
+      cellSize: 96
+      cellHeight: 0
+      cellRects: []
+      row: 0
+      frameCount: 11
+      fps: 24
+      tint: {r: 1, g: 1, b: 1, a: 1}
+      flipY: 0
+      angleOffsetDeg: 0
+      worldSize: 1
+      forwardOffset: 0
+      offsetY: 0
+      glow: 0
+      glowTint: {r: 1, g: 0.85, b: 0.53, a: 1}
+      glowAlpha: 0.5
+      glowScale: 1.25
+      ghostCount: 0
+      ghostFrameLag: 1
+      ghostAlphaFalloff: 0.45
+      ghostTint: {r: 1, g: 1, b: 1, a: 0.6}
+      sfx:
+        sound: {fileID: 0}
+        clip: {fileID: 0}
+        variants: []
+        volume: 0.8
+        pitchJitter: 0.06
+        trimStart: 0
+        trimEnd: 1
+        delay: 0
+    hitStop: 1
+    cameraNudge: 1
+  hitStone:
+    arcVariant: 2
+    contactDelay: 0.14
+    sfx:
+      sound: {fileID: 11400000, guid: e090519b2473ecf3a7303b69fbaa95b0, type: 2}
+      clip: {fileID: 8300000, guid: 10e09d5bdfce534498c5ffd0e8aecc10, type: 3}
+      variants: []
+      volume: 1
+      pitchJitter: 0.06
+      trimStart: 0
+      trimEnd: 1
+      delay: 0
+    flash:
+      color: {r: 0.95, g: 0.95, b: 0.9, a: 1}
+      peak: 1
+      attack: 0.02
+      decay: 0.14
+      sfx:
+        sound: {fileID: 0}
+        clip: {fileID: 0}
+        variants: []
+        volume: 0.8
+        pitchJitter: 0.06
+        trimStart: 0
+        trimEnd: 1
+        delay: 0
+    squash:
+      punch: 0.15
+      duration: 0.28
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      anchorBottom: 1
+      sfx:
+        sound: {fileID: 0}
+        clip: {fileID: 0}
+        variants: []
+        volume: 0.8
+        pitchJitter: 0.06
+        trimStart: 0
+        trimEnd: 1
+        delay: 0
+    puff:
+      count: 5
+      sprites:
+      - {fileID: -1563393817, guid: 38e632df29909b249a382b2d53b7a50a, type: 3}
+      - {fileID: -52769009, guid: 38e632df29909b249a382b2d53b7a50a, type: 3}
+      - {fileID: 1581302308, guid: 38e632df29909b249a382b2d53b7a50a, type: 3}
+      colors: []
+      speed: 0.9
+      gravity: -5
+      life: 0.55
+      size: 1.5
+      upBias: 0.6
+      spinDegrees: 360
+      scaleIn: 0
+      shrink: 0.6
+      fadeStart: 0.6
+      anim:
+        frames: []
+        sheet: {fileID: 0}
+        cellSize: 96
+        cellHeight: 0
+        cellRects: []
+        row: 1
+        frameCount: 7
+        fps: 24
+        tint: {r: 1, g: 1, b: 1, a: 1}
+        flipY: 0
+        angleOffsetDeg: 0
+        worldSize: 1
+        forwardOffset: 0
+        offsetY: 0
+        glow: 0
+        glowTint: {r: 1, g: 0.85, b: 0.53, a: 1}
+        glowAlpha: 0.5
+        glowScale: 1.25
+        ghostCount: 0
+        ghostFrameLag: 1
+        ghostAlphaFalloff: 0.45
+        ghostTint: {r: 1, g: 1, b: 1, a: 0.6}
+        sfx:
+          sound: {fileID: 0}
+          clip: {fileID: 0}
+          variants: []
+          volume: 0.8
+          pitchJitter: 0.06
+          trimStart: 0
+          trimEnd: 1
+          delay: 0
+      animOverLife: 1
+      sfx:
+        sound: {fileID: 0}
+        clip: {fileID: 0}
+        variants: []
+        volume: 0.8
+        pitchJitter: 0.06
+        trimStart: 0
+        trimEnd: 1
+        delay: 0
+    burst:
+      frames: []
+      sheet: {fileID: 2800000, guid: b3e337b270904a14888341ebf08f790c, type: 3}
+      cellSize: 96
+      cellHeight: 0
+      cellRects: []
+      row: 0
+      frameCount: 11
+      fps: 24
+      tint: {r: 0.604, g: 0.647, b: 0.69, a: 1}
+      flipY: 0
+      angleOffsetDeg: 0
+      worldSize: 1
+      forwardOffset: 0
+      offsetY: 0
+      glow: 0
+      glowTint: {r: 1, g: 0.85, b: 0.53, a: 1}
+      glowAlpha: 0.5
+      glowScale: 1.25
+      ghostCount: 0
+      ghostFrameLag: 1
+      ghostAlphaFalloff: 0.45
+      ghostTint: {r: 1, g: 1, b: 1, a: 0.6}
+      sfx:
+        sound: {fileID: 0}
+        clip: {fileID: 0}
+        variants: []
+        volume: 0.8
+        pitchJitter: 0.06
+        trimStart: 0
+        trimEnd: 1
+        delay: 0
+    hitStop: 1
+    cameraNudge: 1
+  swingLunge:
+    anticipation: 0.10961129
+    backOffset: 0.04
+    lungeOffset: 0.01719133
+    lungeDuration: 0.12
+    settleDuration: 0.22
+    stretch: 0.02763849
+    torqueDegrees: 2.8700948
+    swingAnimDelay: 0
+  swingAngleDeg: 90
+  swingRig:
+    pivotOffset: {x: 0, y: 0}
+    angleOffsetDeg: -0.00023934667
+    behindPlayer: 0
+    sortingOrder: 50
+  swingFacing: 1
+  facing45:
+    aim: {x: 1, y: 0}
+    slashAngleDeg: 0
+    slashFlipY: 0
+    slashOffset: {x: 0, y: 0}
+    slashBehindPlayer: 0
+  facingFront:
+    aim: {x: 0, y: -1}
+    slashAngleDeg: 89.77967
+    slashFlipY: 0
+    slashOffset: {x: 0, y: 0.1312572}
+    slashBehindPlayer: 0
+  facingBack:
+    aim: {x: 0, y: 1}
+    slashAngleDeg: 90.22021
+    slashFlipY: 0
+    slashOffset: {x: 0, y: 0.21526119}
+    slashBehindPlayer: 1
+  overlayFade:
+    fadedAlpha: 0.35
+    fadeOutDuration: 0.15
+    fadeInDuration: 0.3
+    sfx:
+      sound: {fileID: 0}
+      clip: {fileID: 0}
+      variants: []
+      volume: 0.8
+      pitchJitter: 0.06
+      trimStart: 0
+      trimEnd: 1
+      delay: 0
+  tintState:
+    tint: {r: 0.42, g: 0.33, b: 0.24, a: 1}
+    blend: 0.55
+    inDuration: 0.25
+    outDuration: 0.6
+    autoRevert: 0
+    sfx:
+      sound: {fileID: 0}
+      clip: {fileID: 0}
+      variants: []
+      volume: 0.8
+      pitchJitter: 0.06
+      trimStart: 0
+      trimEnd: 1
+      delay: 0
+  progressGlow:
+    color: {r: 1, g: 0.84705883, b: 0.5294118, a: 1}
+    maxAlpha: 0.4
+    pulseAmp: 0.15
+    pulseHzStart: 0.7
+    pulseHzEnd: 2.2
+  glint:
+    interval: 2.5
+    intervalJitter: 0.4
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 0.59
+    duration: 0.35
+    sfx:
+      sound: {fileID: 0}
+      clip: {fileID: 0}
+      variants: []
+      volume: 0.8
+      pitchJitter: 0.06
+      trimStart: 0
+      trimEnd: 1
+      delay: 0
+  floatAura:
+    count: 3
+    sprites:
+    - {fileID: -10279249, guid: f7e6b187e70a3e14bb18c7a75891a324, type: 3}
+    colors:
+    - {r: 1, g: 0, b: 0.06252861, a: 1}
+    emitOver: 0.1
+    riseHeight: 0.5
+    riseDuration: 0.9
+    spread: 0.04
+    swayAmp: 0.31
+    swayHz: 0
+    size: 0.11
+    scaleIn: 0.084
+    fadeStart: 0.11
+    tiltDegrees: 8
+    sortingOrder: 70
+    sfx:
+      sound: {fileID: 0}
+      clip: {fileID: 0}
+      variants: []
+      volume: 0.8
+      pitchJitter: 0.06
+      trimStart: 0
+      trimEnd: 1
+      delay: 0
+  converge:
+    count: 5
+    sprites:
+    - {fileID: 870118152, guid: f7e6b187e70a3e14bb18c7a75891a324, type: 3}
+    colors:
+    - {r: 1, g: 0.9253036, b: 0, a: 0.92156863}
+    startRadius: 0.34
+    radiusJitter: 0.17
+    angleJitter: 10
+    duration: 0.55
+    stagger: 0.04
+    pull:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    swirlDegrees: 45
+    spinDegrees: 180
+    size: 0.16
+    endScale: 0.672
+    fadeStart: 0.414
+    sortingOrder: 65
+    sfx:
+      sound: {fileID: 0}
+      clip: {fileID: 0}
+      variants: []
+      volume: 0.8
+      pitchJitter: 0.06
+      trimStart: 0
+      trimEnd: 1
+      delay: 0
+  emote:
+    iconSet:
+    - id: 0
+      sprite: {fileID: 21300000, guid: 7bb8e1829b9547a46bd9f23c17716702, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+    - id: 1
+      sprite: {fileID: 21300000, guid: a497b46bc2c6eb04b92a85c23c79c082, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+    - id: 6
+      sprite: {fileID: 21300000, guid: e094f6a3c7b56c54e97773fd8e601620, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+    - id: 3
+      sprite: {fileID: 21300000, guid: dbb7f235b9160184ca3aad930d03e146, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+    - id: 5
+      sprite: {fileID: 21300000, guid: eb5b6fa84e89f8645ac7caea6b028c09, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+    - id: 4
+      sprite: {fileID: 21300000, guid: c004d205531c7f4498e348d91842630f, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+    - id: 2
+      sprite: {fileID: 21300000, guid: 7c09dc4e0cbcc9a46b8ba7fec55f8a2a, type: 3}
+      tint: {r: 1, g: 1, b: 1, a: 1}
+    icons: []
+    bubble: {fileID: 0}
+    iconTint: {r: 1, g: 1, b: 1, a: 1}
+    size: 0.4
+    riseOffset: 0
+    popIn: 0.12
+    hold: 0.9716291
+    popOut: 0.15
+    overshoot: 1.303309
+    sortingOrder: 120
+    sfx:
+      sound: {fileID: 0}
+      clip: {fileID: 0}
+      variants: []
+      volume: 0.8
+      pitchJitter: 0.06
+      trimStart: 0
+      trimEnd: 1
+      delay: 0
+  emoteIcon: 0
+  droplets:
+    count: 10
+    color: {r: 0.45882353, g: 0.61960787, b: 0.8156863, a: 0.9}
+    speed: 1.3
+    spreadDegrees: 32
+    gravity: -4.5
+    life: 0.55
+    size: 0.03
+    stretch: 1.7
+    sortingOrder: 60
+    sfx:
+      sound: {fileID: 0}
+      clip: {fileID: 0}
+      variants: []
+      volume: 0.8
+      pitchJitter: 0.06
+      trimStart: 0
+      trimEnd: 1
+      delay: 0
+  drifterVariant: 1
+  driftLeaves:
+    count: 8
+    sprites: []
+    colors:
+    - {r: 0.70980394, g: 0.87058824, b: 0.5372549, a: 1}
+    - {r: 0.14901961, g: 0.38039216, b: 0.41960785, a: 1}
+    - {r: 0.41568628, g: 0.67058825, b: 0.4862745, a: 1}
+    region: {x: 2.5, y: 1.8}
+    drift: {x: -0.08, y: -0.12}
+    wobbleAmp: 0.05
+    wobbleHz: 0.4
+    flickerAmp: 0
+    flickerHz: 1.2
+    life: 7
+    size: 0.035
+    sizeJitter: 0.4
+    sortingOrder: 40
+  driftFireflies:
+    count: 6
+    sprites: []
+    colors:
+    - {r: 1, g: 0.84705883, b: 0.5294118, a: 1}
+    region: {x: 2.5, y: 1.8}
+    drift: {x: 0.02, y: 0}
+    wobbleAmp: 0.12
+    wobbleHz: 0.25
+    flickerAmp: 0.85
+    flickerHz: 0.9
+    life: 9
+    size: 0.02
+    sizeJitter: 0.4
+    sortingOrder: 40
+  driftPollen:
+    count: 10
+    sprites: []
+    colors:
+    - {r: 1, g: 0.97, b: 0.85, a: 0.55}
+    region: {x: 2.5, y: 1.8}
+    drift: {x: 0.05, y: 0.02}
+    wobbleAmp: 0.08
+    wobbleHz: 0.4
+    flickerAmp: 0.35
+    flickerHz: 0.5
+    life: 8
+    size: 0.012
+    sizeJitter: 0.4
+    sortingOrder: 40
+  driftSteam:
+    count: 5
+    sprites: []
+    colors:
+    - {r: 1, g: 1, b: 1, a: 0.28}
+    region: {x: 0.25, y: 0.3}
+    drift: {x: 0.03, y: 0.35}
+    wobbleAmp: 0.06
+    wobbleHz: 0.6
+    flickerAmp: 0
+    flickerHz: 1.2
+    life: 2.2
+    size: 0.05
+    sizeJitter: 0.4
+    sortingOrder: 40
+  repair:
+    glow:
+      color: {r: 0.8, g: 1, b: 0.82, a: 1}
+      peak: 0.7
+      attack: 0.05
+      decay: 0.3
+      sfx:
+        sound: {fileID: 0}
+        clip: {fileID: 0}
+        variants: []
+        volume: 0.8
+        pitchJitter: 0.06
+        trimStart: 0
+        trimEnd: 1
+        delay: 0
+    bounce:
+      punch: 0.12
+      duration: 0.3
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      anchorBottom: 1
+      sfx:
+        sound: {fileID: 0}
+        clip: {fileID: 0}
+        variants: []
+        volume: 0.8
+        pitchJitter: 0.06
+        trimStart: 0
+        trimEnd: 1
+        delay: 0
+    motes:
+      count: 6
+      color: {r: 1, g: 0.85, b: 0.53, a: 1}
+      riseSpeed: 0.35
+      life: 0.9
+      twinkleHz: 5
+      size: 0.04
+      sfx:
+        sound: {fileID: 0}
+        clip: {fileID: 0}
+        variants: []
+        volume: 0.8
+        pitchJitter: 0.06
+        trimStart: 0
+        trimEnd: 1
+        delay: 0
+    pulse:
+      color: {r: 0.71, g: 0.87, b: 0.54, a: 0.7}
+      startRadius: 0.06
+      endRadius: 0.5
+      duration: 0.5
+      fade:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: -1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: -1
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      sfx:
+        sound: {fileID: 0}
+        clip: {fileID: 0}
+        variants: []
+        volume: 0.8
+        pitchJitter: 0.06
+        trimStart: 0
+        trimEnd: 1
+        delay: 0
+    sfx:
+      sound: {fileID: 11400000, guid: 122b00338bdea874e4b5a7cc3398f957, type: 2}
+      clip: {fileID: 8300000, guid: 69682555d44125241a9f3b0e09c54712, type: 3}
+      variants: []
+      volume: 1
+      pitchJitter: 0.06
+      trimStart: 0.3634151
+      trimEnd: 0.4555716
+      delay: 0
+  drop:
+    itemSprite: {fileID: -947008470, guid: 2dcb147041d91134cb29d3864e37c365, type: 3}
+    itemTint: {r: 1, g: 1, b: 1, a: 1}
+    itemSize: 2
+    hopDistance: 0.4
+    spreadDegrees: 35
+    hopHeight: 0.35
+    hopDuration: 0.4
+    bounces: 2
+    landPuff:
+      count: 4
+      sprites: []
+      colors: []
+      speed: 0.5
+      gravity: -2.6
+      life: 0.4
+      size: 0.03
+      upBias: 0.3
+      spinDegrees: 360
+      scaleIn: 0
+      shrink: 0.6
+      fadeStart: 0.6
+      anim:
+        frames: []
+        sheet: {fileID: 0}
+        cellSize: 96
+        cellHeight: 0
+        cellRects: []
+        row: 1
+        frameCount: 7
+        fps: 24
+        tint: {r: 1, g: 1, b: 1, a: 1}
+        flipY: 0
+        angleOffsetDeg: 0
+        worldSize: 1
+        forwardOffset: 0
+        offsetY: 0
+        glow: 0
+        glowTint: {r: 1, g: 0.85, b: 0.53, a: 1}
+        glowAlpha: 0.5
+        glowScale: 1.25
+        ghostCount: 0
+        ghostFrameLag: 1
+        ghostAlphaFalloff: 0.45
+        ghostTint: {r: 1, g: 1, b: 1, a: 0.6}
+        sfx:
+          sound: {fileID: 0}
+          clip: {fileID: 0}
+          variants: []
+          volume: 0.8
+          pitchJitter: 0.06
+          trimStart: 0
+          trimEnd: 1
+          delay: 0
+      animOverLife: 1
+      sfx:
+        sound: {fileID: 0}
+        clip: {fileID: 0}
+        variants: []
+        volume: 0.8
+        pitchJitter: 0.06
+        trimStart: 0
+        trimEnd: 1
+        delay: 0
+    restToIdle: 1
+    restSeconds: 0.8
+    sfx:
+      sound: {fileID: 11400000, guid: 942e1b7d5b3e60bad31e76a8999431d8, type: 2}
+      clip: {fileID: 8300000, guid: cb64fe36a4fe50c4ea64356f34f5e324, type: 3}
+      variants: []
+      volume: 1
+      pitchJitter: 0.06
+      trimStart: 0
+      trimEnd: 1
+      delay: 0
+  idle:
+    hoverHeight: 0.08
+    bobAmplitude: 0.05
+    bobPeriod: 1.8
+    swayDegrees: 2.5
+    shadowSize: 0.16
+    shadowAlpha: 0.25
+    shadowSquish: 0.4
+    shadowBreathe: 0.35
+    glint: 1
+    glintInterval: 2.5
+    glintColor: {r: 1, g: 1, b: 1, a: 1}
+    glow: 0
+    glowColor: {r: 1, g: 1, b: 1, a: 1}
+    glowAlpha: 0.18
+    glowScale: 1.6
+    glowPulsePeriod: 2.2
+  pickup:
+    itemSprite: {fileID: -947008470, guid: 2dcb147041d91134cb29d3864e37c365, type: 3}
+    itemTint: {r: 1, g: 1, b: 1, a: 1}
+    itemSize: 2
+    anticipation: 0.08
+    flyDuration: 0.35
+    flyEase:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    arcHeight: 0.22
+    absorb:
+      count: 5
+      color: {r: 1, g: 0.85, b: 0.53, a: 1}
+      riseSpeed: 0.35
+      life: 0.6
+      twinkleHz: 5
+      size: 0.04
+      sfx:
+        sound: {fileID: 0}
+        clip: {fileID: 0}
+        variants: []
+        volume: 0.8
+        pitchJitter: 0.06
+        trimStart: 0
+        trimEnd: 1
+        delay: 0
+    receiverPopScale: 1.06
+    receiverPopDuration: 0.25
+    sfx:
+      sound: {fileID: 11400000, guid: 23591ee2b180d0a7ff37a8b3241277bc, type: 2}
+      clip: {fileID: 8300000, guid: d3515fd75c5d28c4ea5db0d99beaea55, type: 3}
+      variants: []
+      volume: 1
+      pitchJitter: 0.06
+      trimStart: 0
+      trimEnd: 1
+      delay: 0
+  recipes:
+  - name: RepairTech
+    swingOpens: 0
+    arc: 2
+    contactDelay: 0.14
+    tintFromTarget: 0
+    preview:
+      sprite: {fileID: 644693128, guid: 1c12c3db0e3212c40a302df5a0e2be71, type: 3}
+      scale: 6
+    blocks:
+    - rid: 2440866734543208456
+    - rid: 2440866949803802658
+    - rid: 2440866949803802663
+    - rid: 2440866949803802661
+    - rid: 2440866949803802662
+    - rid: 2440866949803802656
+    - rid: 2440866949803802657
+  - name: Nurture Plant
+    swingOpens: 0
+    arc: 2
+    contactDelay: 0.14
+    tintFromTarget: 0
+    preview:
+      sprite: {fileID: -503396108, guid: 2a1a939b73e2b1d4c9cfab0f5e37e3bf, type: 3}
+      scale: 6
+    blocks:
+    - rid: 2440866949803802688
+    - rid: 2440866949803802690
+    - rid: 2440866949803802691
+    - rid: 2440866949803802692
+    - rid: 2440866949803802693
+    - rid: 2440866949803802694
+  - name: Bloom
+    swingOpens: 0
+    arc: 2
+    contactDelay: 0.14
+    tintFromTarget: 0
+    preview:
+      sprite: {fileID: 0}
+      scale: 1
+    blocks:
+    - rid: 2440866734543208475
+    - rid: 2440866734543208476
+    - rid: 2440866734543208477
+    - rid: 2440866734543208478
+  - name: WaterSplash
+    swingOpens: 0
+    arc: 2
+    contactDelay: 0.14
+    tintFromTarget: 0
+    preview:
+      sprite: {fileID: 0}
+      scale: 1
+    blocks:
+    - rid: 2440866734543208479
+    - rid: 2440866734543208480
+    - rid: 2440866734543208481
+  - name: BefriendAck
+    swingOpens: 0
+    arc: 2
+    contactDelay: 0.14
+    tintFromTarget: 0
+    preview:
+      sprite: {fileID: 0}
+      scale: 1
+    blocks:
+    - rid: 2440866734543208482
+    - rid: 2440866734543208483
+    - rid: 2440866734543208484
+  - name: Startle
+    swingOpens: 0
+    arc: 2
+    contactDelay: 0.14
+    tintFromTarget: 0
+    preview:
+      sprite: {fileID: 0}
+      scale: 1
+    blocks:
+    - rid: 2440866734543208485
+    - rid: 2440866734543208486
+    - rid: 2440866949803802686
+  - name: JumpLand
+    swingOpens: 0
+    arc: 2
+    contactDelay: 0.14
+    tintFromTarget: 0
+    preview:
+      sprite: {fileID: 0}
+      scale: 1
+    blocks:
+    - rid: 2440866734543208488
+    - rid: 2440866734543208489
+    - rid: 2440866734543208490
+  - name: PowerOn
+    swingOpens: 0
+    arc: 2
+    contactDelay: 0.14
+    tintFromTarget: 0
+    preview:
+      sprite: {fileID: 0}
+      scale: 1
+    blocks:
+    - rid: 2440866734543208491
+    - rid: 2440866734543208492
+    - rid: 2440866734543208493
+    - rid: 2440866734543208494
+  - name: ScanPulse
+    swingOpens: 0
+    arc: 2
+    contactDelay: 0.14
+    tintFromTarget: 0
+    preview:
+      sprite: {fileID: 0}
+      scale: 1
+    blocks:
+    - rid: 2440866734543208495
+    - rid: 2440866734543208496
+    - rid: 2440866734543208497
+  - name: StashDeposit
+    swingOpens: 0
+    arc: 2
+    contactDelay: 0.14
+    tintFromTarget: 0
+    preview:
+      sprite: {fileID: 0}
+      scale: 1
+    blocks:
+    - rid: 2440866734543208498
+    - rid: 2440866734543208499
+    - rid: 2440866734543208500
+  - name: CraftDone
+    swingOpens: 0
+    arc: 2
+    contactDelay: 0.14
+    tintFromTarget: 0
+    preview:
+      sprite: {fileID: 0}
+      scale: 1
+    blocks:
+    - rid: 2440866734543208501
+    - rid: 2440866734543208502
+    - rid: 2440866734543208503
+    - rid: 2440866734543208504
+    - rid: 2440866734543208505
+  - name: HarvestPop
+    swingOpens: 0
+    arc: 2
+    contactDelay: 0.14
+    tintFromTarget: 0
+    preview:
+      sprite: {fileID: 0}
+      scale: 1
+    blocks:
+    - rid: 2440866734543208501
+    - rid: 2440866734543208502
+    - rid: 2440866734543208503
+    - rid: 2440866734543208504
+    - rid: 2440866734543208505
+  - name: SwingTool
+    swingOpens: 0
+    arc: 2
+    contactDelay: 0.14
+    tintFromTarget: 0
+    preview:
+      sprite: {fileID: 0}
+      scale: 1
+    blocks:
+    - rid: 2440866949803802624
+    - rid: 2440866949803802625
+    - rid: 2440866949803802626
+  - name: ContactWood
+    swingOpens: 0
+    arc: 2
+    contactDelay: 0.14
+    tintFromTarget: 0
+    preview:
+      sprite: {fileID: 21300000, guid: d3ab764795a712b4187c9d9e9b8b70a4, type: 3}
+      scale: 2.0909445
+    blocks:
+    - rid: 2440866949803802627
+    - rid: 2440866949803802630
+    - rid: 2440866949803802660
+    - rid: 2440866949803802628
+    - rid: 2440866949803802629
+    - rid: 2440866949803802631
+    - rid: 2440866949803802632
+  - name: ContactStone
+    swingOpens: 0
+    arc: 2
+    contactDelay: 0.14
+    tintFromTarget: 0
+    preview:
+      sprite: {fileID: 358582383, guid: 554f10ce033585f4c85dbc7e9aef861e, type: 3}
+      scale: 4.53
+    blocks:
+    - rid: 2440866949803802672
+    - rid: 2440866949803802673
+    - rid: 2440866949803802674
+    - rid: 2440866949803802675
+    - rid: 2440866949803802676
+    - rid: 2440866949803802677
+    - rid: 2440866949803802678
+  - name: ContactMetal
+    swingOpens: 0
+    arc: 2
+    contactDelay: 0.14
+    tintFromTarget: 0
+    preview:
+      sprite: {fileID: -559821372, guid: c82707ce0987d0d4b9d6c81735bca41b, type: 3}
+      scale: 3.32
+    blocks:
+    - rid: 2440866949803802679
+    - rid: 2440866949803802680
+    - rid: 2440866949803802681
+    - rid: 2440866949803802682
+    - rid: 2440866949803802683
+    - rid: 2440866949803802684
+    - rid: 2440866949803802685
+  seededNames:
+  - Repair
+  - HarvestPop
+  - SeedPlant
+  - SproutPop
+  - StageUp
+  - StageUp
+  - Bloom
+  - WaterSplash
+  - BefriendAck
+  - Startle
+  - JumpLand
+  - PowerOn
+  - ScanPulse
+  - StashDeposit
+  - CraftDone
+  - SwingTool
+  - ContactWood
+  - ContactStone
+  - Hit_Wood
+  - Hit_Stone
+  - HitWood
+  autoApplyPreview: 1
+  kindPreviews:
+  - kind: 11
+    preview:
+      sprite: {fileID: 0}
+      scale: 1
+  - kind: 8
+    preview:
+      sprite: {fileID: 0}
+      scale: 1
+  - kind: 19
+    preview:
+      sprite: {fileID: 0}
+      scale: 1
+  - kind: 15
+    preview:
+      sprite: {fileID: 0}
+      scale: 1
+  - kind: 14
+    preview:
+      sprite: {fileID: 0}
+      scale: 1
+  globalSpeed: 1
+  clipLibrary:
+  - {fileID: 8300000, guid: 061a20c673edeed4bbae1b02bf847cd6, type: 3}
+  - {fileID: 8300000, guid: fbbdba576372921418e81bdf4f2e476c, type: 3}
+  - {fileID: 8300000, guid: 5200c86dceedd8c45bdebcc56156bf6f, type: 3}
+  - {fileID: 8300000, guid: 79ab65c48ff7c81428b942bed57a1672, type: 3}
+  - {fileID: 8300000, guid: 1a9bc98f2e5962e4393a3c0628431db6, type: 3}
+  - {fileID: 8300000, guid: 31019eaa44ca6174aae262a0dd0500d3, type: 3}
+  - {fileID: 8300000, guid: 668e8d3a02e485d48a0401ea5bb1df87, type: 3}
+  - {fileID: 8300000, guid: 665f2a196dc34884a8221bd088c86dcb, type: 3}
+  - {fileID: 8300000, guid: b5a2773580ae40641a2f211d4cabe00d, type: 3}
+  - {fileID: 8300000, guid: 70f16f1e368e2784b81b3cfbd66aa4e6, type: 3}
+  - {fileID: 8300000, guid: ec778cd3c3baea34bb1c5ecadfc7131d, type: 3}
+  - {fileID: 8300000, guid: 06b19f83eb5591e4796c2fbfc99b02f2, type: 3}
+  - {fileID: 8300000, guid: ca9b1938d7286794793bf3d572e51fa6, type: 3}
+  - {fileID: 8300000, guid: 7c02d4f3d32c79740966b345aa894997, type: 3}
+  - {fileID: 8300000, guid: d2412567d208f5f448e352ffa9f8589b, type: 3}
+  - {fileID: 8300000, guid: 514621fda99628543b519eac0729fbc3, type: 3}
+  - {fileID: 8300000, guid: f1e3136c8acf1f44ebdce0750e8ce2e8, type: 3}
+  - {fileID: 8300000, guid: 53472ea2d0946b14d8f5f241b3661dd4, type: 3}
+  - {fileID: 8300000, guid: 83c4240f6d7b6d34097fb94538e20b59, type: 3}
+  - {fileID: 8300000, guid: 3b6ffcda0a7f13c45b60aec7f9c564d5, type: 3}
+  - {fileID: 8300000, guid: cb64fe36a4fe50c4ea64356f34f5e324, type: 3}
+  - {fileID: 8300000, guid: 0ff81bafab66a274c98bdb9dcf58a09f, type: 3}
+  - {fileID: 8300000, guid: dd367ee8b4c6c154491f6784d99836c4, type: 3}
+  - {fileID: 8300000, guid: f0953b02c96f823468bcbe5038fca89a, type: 3}
+  - {fileID: 8300000, guid: 030df49cf1be5484d81f71761257bc98, type: 3}
+  - {fileID: 8300000, guid: c7940922bd738d247b2845352101667b, type: 3}
+  - {fileID: 8300000, guid: 6433c821e3d7f664cb9b81c4dbe8a60c, type: 3}
+  - {fileID: 8300000, guid: 4a5d73b61951bd341ad15ce9f833d484, type: 3}
+  - {fileID: 8300000, guid: 7adb91220547a514f835cb86db28b9b9, type: 3}
+  - {fileID: 8300000, guid: ad5d84d973d038e42970e03736b92662, type: 3}
+  - {fileID: 8300000, guid: 6f1ec56163b6c6749989743164d49506, type: 3}
+  - {fileID: 8300000, guid: d3515fd75c5d28c4ea5db0d99beaea55, type: 3}
+  - {fileID: 8300000, guid: 988fabac7bd0d7845b562df6006a90a8, type: 3}
+  - {fileID: 8300000, guid: ba743dd904a155c4284889165f81d4fb, type: 3}
+  - {fileID: 8300000, guid: a4720049bda201343824d564703c0753, type: 3}
+  - {fileID: 8300000, guid: 67768e69736b8f24dbdbcffdf515046f, type: 3}
+  - {fileID: 8300000, guid: 701e05c7b08f12944853e10edc622fc2, type: 3}
+  - {fileID: 8300000, guid: 5a1c49089b448a14796a9f3b9266cf8f, type: 3}
+  - {fileID: 8300000, guid: 67cc0f373adebd84987226d2a2c0901a, type: 3}
+  - {fileID: 8300000, guid: 709ada35240c0d44dbb53d77dfc74972, type: 3}
+  - {fileID: 8300000, guid: 8b2c63e124c697348bcac88be41835ac, type: 3}
+  - {fileID: 8300000, guid: 58bd09d40af3d5648a627e24b5e1041a, type: 3}
+  - {fileID: 8300000, guid: a1675a4ed9acafa4d82c27372c271dd4, type: 3}
+  - {fileID: 8300000, guid: 10e09d5bdfce534498c5ffd0e8aecc10, type: 3}
+  - {fileID: 8300000, guid: 49837938db3fedd4bab94c65892aa36a, type: 3}
+  - {fileID: 8300000, guid: 3db29b9bd862d164597b05cd60b92275, type: 3}
+  - {fileID: 8300000, guid: 57589f45516475a43bde48ca99a85910, type: 3}
+  - {fileID: 8300000, guid: 06fb717e4da380e41a5f921f40409800, type: 3}
+  - {fileID: 8300000, guid: 108814dd40fb672469243fd082675c6c, type: 3}
+  - {fileID: 8300000, guid: 94361ecd9c40c2942bcfb91df10c4683, type: 3}
+  - {fileID: 8300000, guid: 69682555d44125241a9f3b0e09c54712, type: 3}
+  - {fileID: 8300000, guid: e65fedb85b3aae542a6ab877d6eac350, type: 3}
+  - {fileID: 8300000, guid: 1e604d702e0c1f0478c9c665a613dedd, type: 3}
+  - {fileID: 8300000, guid: 8f7a1e500fe0b554dbe35e2a6e51f30e, type: 3}
+  - {fileID: 8300000, guid: adfddb646e2ed3e45b9524e39492d977, type: 3}
+  - {fileID: 8300000, guid: 73b20046289a5cb4b861b286a3c38b91, type: 3}
+  - {fileID: 8300000, guid: 45a1925a24a806d4b95173f1a58109cb, type: 3}
+  - {fileID: 8300000, guid: 4e3d3319873c8fb41959ba1fe237bb1c, type: 3}
+  references:
+    version: 2
+    RefIds:
+    - rid: 2440866734543208456
+      type: {class: SfxBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        sfx:
+          sound: {fileID: 11400000, guid: 1ebd88484a36389dfaa9dd871c30f6fe, type: 2}
+          clip: {fileID: 8300000, guid: e65fedb85b3aae542a6ab877d6eac350, type: 3}
+          variants: []
+          volume: 1
+          pitchJitter: 0.06
+          trimStart: 0.304601
+          trimEnd: 0.32965538
+          delay: 0.06200805
+    - rid: 2440866734543208475
+      type: {class: SfxBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        sfx:
+          sound: {fileID: 0}
+          clip: {fileID: 0}
+          variants: []
+          volume: 0.8
+          pitchJitter: 0.06
+          trimStart: 0
+          trimEnd: 1
+          delay: 0
+    - rid: 2440866734543208476
+      type: {class: FlashBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 0
+        flash:
+          color: {r: 0.88235295, g: 0.654902, b: 0.77254903, a: 1}
+          peak: 0.6
+          attack: 0.08
+          decay: 0.4
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        impactFrame: 0
+        useMomentTint: 0
+    - rid: 2440866734543208477
+      type: {class: SparkleBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 0
+        sparkle:
+          count: 12
+          color: {r: 0.88235295, g: 0.654902, b: 0.77254903, a: 1}
+          riseSpeed: 0.35
+          life: 1.1
+          twinkleHz: 5
+          size: 0.04
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        offset: {x: 0, y: 0.12}
+        useMomentTint: 0
+    - rid: 2440866734543208478
+      type: {class: RingBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0.1
+        usePrimitive: 0
+        ring:
+          color: {r: 0.88235295, g: 0.654902, b: 0.77254903, a: 0.7}
+          startRadius: 0.06
+          endRadius: 0.55
+          duration: 0.55
+          fade:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1
+              inSlope: 0
+              outSlope: -1
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: -1
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        offset: {x: 0, y: 0}
+        useMomentTint: 0
+    - rid: 2440866734543208479
+      type: {class: SfxBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        sfx:
+          sound: {fileID: 0}
+          clip: {fileID: 0}
+          variants: []
+          volume: 0.8
+          pitchJitter: 0.06
+          trimStart: 0
+          trimEnd: 1
+          delay: 0
+    - rid: 2440866734543208480
+      type: {class: DropletBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 0
+        droplets:
+          count: 10
+          color: {r: 0.45882353, g: 0.61960787, b: 0.8156863, a: 0.9}
+          speed: 1.3
+          spreadDegrees: 32
+          gravity: -4.5
+          life: 0.55
+          size: 0.03
+          stretch: 1.7
+          sortingOrder: 60
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        offset: {x: 0, y: 0}
+    - rid: 2440866734543208481
+      type: {class: TintBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 0
+        tint:
+          tint: {r: 0.42, g: 0.33, b: 0.24, a: 1}
+          blend: 0.55
+          inDuration: 0.25
+          outDuration: 0.6
+          autoRevert: 8
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+    - rid: 2440866734543208482
+      type: {class: SfxBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        sfx:
+          sound: {fileID: 0}
+          clip: {fileID: 0}
+          variants: []
+          volume: 0.8
+          pitchJitter: 0.06
+          trimStart: 0
+          trimEnd: 1
+          delay: 0
+    - rid: 2440866734543208483
+      type: {class: PuffBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 0
+        source: 0
+        puff:
+          count: 5
+          sprites: []
+          colors:
+          - {r: 0.85490197, g: 0.36862746, b: 0.30588236, a: 1}
+          - {r: 0.88235295, g: 0.654902, b: 0.77254903, a: 1}
+          speed: 0.6
+          gravity: 0.8
+          life: 0.8
+          size: 0.05
+          upBias: 1
+          spinDegrees: 90
+          scaleIn: 0
+          shrink: 0.6
+          fadeStart: 0.6
+          anim:
+            frames: []
+            sheet: {fileID: 0}
+            cellSize: 96
+            cellHeight: 0
+            cellRects: []
+            row: 1
+            frameCount: 7
+            fps: 24
+            tint: {r: 1, g: 1, b: 1, a: 1}
+            flipY: 0
+            angleOffsetDeg: 0
+            worldSize: 1
+            forwardOffset: 0
+            offsetY: 0
+            glow: 0
+            glowTint: {r: 1, g: 0.85, b: 0.53, a: 1}
+            glowAlpha: 0.5
+            glowScale: 1.25
+            ghostCount: 0
+            ghostFrameLag: 1
+            ghostAlphaFalloff: 0.45
+            ghostTint: {r: 1, g: 1, b: 1, a: 0.6}
+            sfx:
+              sound: {fileID: 0}
+              clip: {fileID: 0}
+              variants: []
+              volume: 0.8
+              pitchJitter: 0.06
+              trimStart: 0
+              trimEnd: 1
+              delay: 0
+          animOverLife: 1
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        offset: {x: 0, y: 0.1}
+        useMomentTint: 0
+    - rid: 2440866734543208484
+      type: {class: SparkleBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 0
+        sparkle:
+          count: 5
+          color: {r: 0.88235295, g: 0.654902, b: 0.77254903, a: 1}
+          riseSpeed: 0.35
+          life: 0.9
+          twinkleHz: 5
+          size: 0.04
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        offset: {x: 0, y: 0}
+        useMomentTint: 0
+    - rid: 2440866734543208485
+      type: {class: SfxBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        sfx:
+          sound: {fileID: 0}
+          clip: {fileID: 0}
+          variants: []
+          volume: 0.8
+          pitchJitter: 0.06
+          trimStart: 0
+          trimEnd: 1
+          delay: 0
+    - rid: 2440866734543208486
+      type: {class: SquashBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 0
+        squash:
+          punch: 0.13669606
+          duration: 0.1
+          curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 2
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          anchorBottom: 1
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0.014005248
+            trimEnd: 1
+            delay: 0
+    - rid: 2440866734543208488
+      type: {class: SfxBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        sfx:
+          sound: {fileID: 0}
+          clip: {fileID: 0}
+          variants: []
+          volume: 0.8
+          pitchJitter: 0.06
+          trimStart: 0
+          trimEnd: 1
+          delay: 0
+    - rid: 2440866734543208489
+      type: {class: SquashBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 0
+        squash:
+          punch: 0.22
+          duration: 0.2
+          curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          anchorBottom: 1
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+    - rid: 2440866734543208490
+      type: {class: PuffBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 0
+        source: 0
+        puff:
+          count: 6
+          sprites: []
+          colors:
+          - {r: 0.41568628, g: 0.67058825, b: 0.4862745, a: 1}
+          - {r: 0.70980394, g: 0.87058824, b: 0.5372549, a: 1}
+          speed: 0.9
+          gravity: -2.6
+          life: 0.4
+          size: 0.03
+          upBias: 0.35
+          spinDegrees: 360
+          scaleIn: 0
+          shrink: 0.6
+          fadeStart: 0.6
+          anim:
+            frames: []
+            sheet: {fileID: 0}
+            cellSize: 96
+            cellHeight: 0
+            cellRects: []
+            row: 1
+            frameCount: 7
+            fps: 24
+            tint: {r: 1, g: 1, b: 1, a: 1}
+            flipY: 0
+            angleOffsetDeg: 0
+            worldSize: 1
+            forwardOffset: 0
+            offsetY: 0
+            glow: 0
+            glowTint: {r: 1, g: 0.85, b: 0.53, a: 1}
+            glowAlpha: 0.5
+            glowScale: 1.25
+            ghostCount: 0
+            ghostFrameLag: 1
+            ghostAlphaFalloff: 0.45
+            ghostTint: {r: 1, g: 1, b: 1, a: 0.6}
+            sfx:
+              sound: {fileID: 0}
+              clip: {fileID: 0}
+              variants: []
+              volume: 0.8
+              pitchJitter: 0.06
+              trimStart: 0
+              trimEnd: 1
+              delay: 0
+          animOverLife: 1
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        offset: {x: 0, y: 0}
+        useMomentTint: 0
+    - rid: 2440866734543208491
+      type: {class: SfxBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        sfx:
+          sound: {fileID: 0}
+          clip: {fileID: 0}
+          variants: []
+          volume: 0.8
+          pitchJitter: 0.06
+          trimStart: 0
+          trimEnd: 1
+          delay: 0
+    - rid: 2440866734543208492
+      type: {class: FlashBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 0
+        flash:
+          color: {r: 1, g: 0.84705883, b: 0.5294118, a: 1}
+          peak: 0.8
+          attack: 0.06
+          decay: 0.35
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        impactFrame: 0
+        useMomentTint: 0
+    - rid: 2440866734543208493
+      type: {class: RingBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 0
+        ring:
+          color: {r: 1, g: 0.84705883, b: 0.5294118, a: 0.8}
+          startRadius: 0.06
+          endRadius: 0.45
+          duration: 0.45
+          fade:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1
+              inSlope: 0
+              outSlope: -1
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: -1
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        offset: {x: 0, y: 0}
+        useMomentTint: 0
+    - rid: 2440866734543208494
+      type: {class: PuffBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0.15
+        usePrimitive: 0
+        source: 0
+        puff:
+          count: 4
+          sprites: []
+          colors:
+          - {r: 1, g: 1, b: 1, a: 0.5}
+          speed: 0.4
+          gravity: 1.2
+          life: 0.8
+          size: 0.05
+          upBias: 1
+          spinDegrees: 60
+          scaleIn: 0
+          shrink: 0.6
+          fadeStart: 0.6
+          anim:
+            frames: []
+            sheet: {fileID: 0}
+            cellSize: 96
+            cellHeight: 0
+            cellRects: []
+            row: 1
+            frameCount: 7
+            fps: 24
+            tint: {r: 1, g: 1, b: 1, a: 1}
+            flipY: 0
+            angleOffsetDeg: 0
+            worldSize: 1
+            forwardOffset: 0
+            offsetY: 0
+            glow: 0
+            glowTint: {r: 1, g: 0.85, b: 0.53, a: 1}
+            glowAlpha: 0.5
+            glowScale: 1.25
+            ghostCount: 0
+            ghostFrameLag: 1
+            ghostAlphaFalloff: 0.45
+            ghostTint: {r: 1, g: 1, b: 1, a: 0.6}
+            sfx:
+              sound: {fileID: 0}
+              clip: {fileID: 0}
+              variants: []
+              volume: 0.8
+              pitchJitter: 0.06
+              trimStart: 0
+              trimEnd: 1
+              delay: 0
+          animOverLife: 1
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        offset: {x: 0, y: 0}
+        useMomentTint: 0
+    - rid: 2440866734543208495
+      type: {class: SfxBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        sfx:
+          sound: {fileID: 0}
+          clip: {fileID: 0}
+          variants: []
+          volume: 0.8
+          pitchJitter: 0.06
+          trimStart: 0
+          trimEnd: 1
+          delay: 0
+    - rid: 2440866734543208496
+      type: {class: RingBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 0
+        ring:
+          color: {r: 0.63529414, g: 0.8627451, b: 0.92156863, a: 0.8}
+          startRadius: 0.06
+          endRadius: 0.8
+          duration: 0.5
+          fade:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1
+              inSlope: 0
+              outSlope: -1
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: -1
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        offset: {x: 0, y: 0}
+        useMomentTint: 0
+    - rid: 2440866734543208497
+      type: {class: TintBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 0
+        tint:
+          tint: {r: 0.63529414, g: 0.8627451, b: 0.92156863, a: 1}
+          blend: 0.4
+          inDuration: 0.12
+          outDuration: 0.6
+          autoRevert: 0.7
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+    - rid: 2440866734543208498
+      type: {class: SfxBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        sfx:
+          sound: {fileID: 0}
+          clip: {fileID: 0}
+          variants: []
+          volume: 0.8
+          pitchJitter: 0.06
+          trimStart: 0
+          trimEnd: 1
+          delay: 0
+    - rid: 2440866734543208499
+      type: {class: SparkleBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 0
+        sparkle:
+          count: 5
+          color: {r: 1, g: 0.85, b: 0.53, a: 1}
+          riseSpeed: 0.35
+          life: 0.6
+          twinkleHz: 5
+          size: 0.04
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        offset: {x: 0, y: 0}
+        useMomentTint: 0
+    - rid: 2440866734543208500
+      type: {class: SquashBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 0
+        squash:
+          punch: 0.1
+          duration: 0.25
+          curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          anchorBottom: 1
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+    - rid: 2440866734543208501
+      type: {class: SfxBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        sfx:
+          sound: {fileID: 0}
+          clip: {fileID: 0}
+          variants: []
+          volume: 0.8
+          pitchJitter: 0.06
+          trimStart: 0
+          trimEnd: 1
+          delay: 0
+    - rid: 2440866734543208502
+      type: {class: FlashBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 0
+        flash:
+          color: {r: 1, g: 0.84705883, b: 0.5294118, a: 1}
+          peak: 0.7
+          attack: 0.02
+          decay: 0.3
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        impactFrame: 0
+        useMomentTint: 0
+    - rid: 2440866734543208503
+      type: {class: SquashBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 0
+        squash:
+          punch: 0.15
+          duration: 0.3
+          curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          anchorBottom: 1
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+    - rid: 2440866734543208504
+      type: {class: SparkleBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0.08
+        usePrimitive: 0
+        sparkle:
+          count: 8
+          color: {r: 1, g: 0.84705883, b: 0.5294118, a: 1}
+          riseSpeed: 0.35
+          life: 0.9
+          twinkleHz: 5
+          size: 0.04
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        offset: {x: 0, y: 0.1}
+        useMomentTint: 0
+    - rid: 2440866734543208505
+      type: {class: RingBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0.08
+        usePrimitive: 0
+        ring:
+          color: {r: 1, g: 0.84705883, b: 0.5294118, a: 0.7}
+          startRadius: 0.06
+          endRadius: 0.5
+          duration: 0.45
+          fade:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1
+              inSlope: 0
+              outSlope: -1
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: -1
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        offset: {x: 0, y: 0}
+        useMomentTint: 0
+    - rid: 2440866949803802624
+      type: {class: SfxBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        sfx:
+          sound: {fileID: 0}
+          clip: {fileID: 0}
+          variants: []
+          volume: 0.8
+          pitchJitter: 0.06
+          trimStart: 0
+          trimEnd: 1
+          delay: 0
+    - rid: 2440866949803802625
+      type: {class: LungeBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+    - rid: 2440866949803802626
+      type: {class: SwingArcBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        arc: 3
+        overrideAngle: 0
+        angleDeg: 0
+    - rid: 2440866949803802627
+      type: {class: SfxBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        sfx:
+          sound: {fileID: 11400000, guid: 069c486d41f1675369dd2ae6f0912fab, type: 2}
+          clip: {fileID: 8300000, guid: 0ff81bafab66a274c98bdb9dcf58a09f, type: 3}
+          variants: []
+          volume: 1
+          pitchJitter: 0.08
+          trimStart: 0
+          trimEnd: 1
+          delay: 0
+    - rid: 2440866949803802628
+      type: {class: FlashBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 1
+        flash:
+          color: {r: 1, g: 0.9, b: 0.7, a: 1}
+          peak: 1
+          attack: 0.02
+          decay: 0.14
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        impactFrame: 1
+        useMomentTint: 0
+    - rid: 2440866949803802629
+      type: {class: SquashBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 1
+        squash:
+          punch: 0.22
+          duration: 0.28
+          curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          anchorBottom: 1
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+    - rid: 2440866949803802630
+      type: {class: PuffBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 1
+        source: 1
+        puff:
+          count: 8
+          sprites: []
+          colors:
+          - {r: 0.54, g: 0.42, b: 0.28, a: 1}
+          - {r: 0.70980394, g: 0.87058824, b: 0.5372549, a: 1}
+          - {r: 0.14901961, g: 0.38039216, b: 0.41960785, a: 1}
+          speed: 1.1
+          gravity: -2.6
+          life: 0.55
+          size: 0.05
+          upBias: 0.6
+          spinDegrees: 360
+          scaleIn: 0
+          shrink: 0.6
+          fadeStart: 0.6
+          anim:
+            frames: []
+            sheet: {fileID: 0}
+            cellSize: 96
+            cellHeight: 0
+            cellRects: []
+            row: 1
+            frameCount: 7
+            fps: 24
+            tint: {r: 1, g: 1, b: 1, a: 1}
+            flipY: 0
+            angleOffsetDeg: 0
+            worldSize: 1
+            forwardOffset: 0
+            offsetY: 0
+            glow: 0
+            glowTint: {r: 1, g: 0.85, b: 0.53, a: 1}
+            glowAlpha: 0.5
+            glowScale: 1.25
+            ghostCount: 0
+            ghostFrameLag: 1
+            ghostAlphaFalloff: 0.45
+            ghostTint: {r: 1, g: 1, b: 1, a: 0.6}
+            sfx:
+              sound: {fileID: 0}
+              clip: {fileID: 0}
+              variants: []
+              volume: 0.8
+              pitchJitter: 0.06
+              trimStart: 0
+              trimEnd: 1
+              delay: 0
+          animOverLife: 1
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        offset: {x: 0, y: 0}
+        useMomentTint: 0
+    - rid: 2440866949803802631
+      type: {class: NudgeBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 1
+        nudge:
+          amplitude: 0.01300253
+          rotationDeg: 0.3
+          duration: 0.2
+          frequency: 16
+    - rid: 2440866949803802632
+      type: {class: HitStopBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 1
+        hitStop:
+          duration: 0.055
+          timeScale: 0.05
+    - rid: 2440866949803802656
+      type: {class: FlashBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 1
+        flash:
+          color: {r: 1, g: 0.92, b: 0.75, a: 1}
+          peak: 1
+          attack: 0.02
+          decay: 0.14
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        impactFrame: 1
+        useMomentTint: 0
+    - rid: 2440866949803802657
+      type: {class: SquashBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 1
+        squash:
+          punch: 0.2
+          duration: 0.28
+          curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          anchorBottom: 1
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+    - rid: 2440866949803802658
+      type: {class: SfxBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        sfx:
+          sound: {fileID: 11400000, guid: 70014237c8a9ae2c32eac0a3e727fc0a, type: 2}
+          clip: {fileID: 8300000, guid: 1e604d702e0c1f0478c9c665a613dedd, type: 3}
+          variants: []
+          volume: 1
+          pitchJitter: 0.06
+          trimStart: 0.777055
+          trimEnd: 0.90948564
+          delay: 0
+    - rid: 2440866949803802660
+      type: {class: PuffBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0.046154577
+        usePrimitive: 0
+        source: 0
+        puff:
+          count: 5
+          sprites:
+          - {fileID: -514267645, guid: 38e632df29909b249a382b2d53b7a50a, type: 3}
+          - {fileID: -1628692657, guid: 38e632df29909b249a382b2d53b7a50a, type: 3}
+          - {fileID: 691545206, guid: 38e632df29909b249a382b2d53b7a50a, type: 3}
+          colors:
+          - {r: 1, g: 1, b: 1, a: 1}
+          - {r: 1, g: 1, b: 1, a: 1}
+          - {r: 1, g: 1, b: 1, a: 1}
+          speed: 1
+          gravity: -2.9
+          life: 0.44
+          size: 1.19
+          upBias: 0
+          spinDegrees: 360
+          scaleIn: 0.232
+          shrink: 0.28
+          fadeStart: 0.336
+          anim:
+            frames: []
+            sheet: {fileID: 0}
+            cellSize: 96
+            cellHeight: 0
+            cellRects: []
+            row: 1
+            frameCount: 7
+            fps: 24
+            tint: {r: 1, g: 1, b: 1, a: 1}
+            flipY: 0
+            angleOffsetDeg: 0
+            worldSize: 1
+            forwardOffset: 0
+            offsetY: 0
+            glow: 0
+            glowTint: {r: 1, g: 0.85, b: 0.53, a: 1}
+            glowAlpha: 0.5
+            glowScale: 1.25
+            ghostCount: 0
+            ghostFrameLag: 1
+            ghostAlphaFalloff: 0.45
+            ghostTint: {r: 1, g: 1, b: 1, a: 0.6}
+            sfx:
+              sound: {fileID: 0}
+              clip: {fileID: 0}
+              variants: []
+              volume: 0.8
+              pitchJitter: 0.06
+              trimStart: 0
+              trimEnd: 1
+              delay: 0
+          animOverLife: 0
+          sfx:
+            sound: {fileID: 11400000, guid: be5a1574502640a4db3d8aa61935d433, type: 2}
+            clip: {fileID: 8300000, guid: 73b20046289a5cb4b861b286a3c38b91, type: 3}
+            variants: []
+            volume: 1
+            pitchJitter: 0.06
+            trimStart: 0.22227937
+            trimEnd: 0.32607603
+            delay: 0
+        offset: {x: 0, y: 0}
+        useMomentTint: 0
+    - rid: 2440866949803802661
+      type: {class: FloatAuraBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0.10002811
+        usePrimitive: 0
+        aura:
+          count: 1
+          sprites:
+          - {fileID: 1587941011, guid: 7e71e74b70af6f7488620ca36d16d9ee, type: 3}
+          colors: []
+          emitOver: 0.45
+          riseHeight: 0.5
+          riseDuration: 0.9
+          spread: 0.47
+          swayAmp: 0
+          swayHz: 0
+          size: 1.19
+          scaleIn: 0.4
+          fadeStart: 0.55
+          tiltDegrees: 8
+          sortingOrder: 70
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        offset: {x: 0, y: 0}
+        useMomentTint: 0
+    - rid: 2440866949803802662
+      type: {class: RingBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0.05557101
+        usePrimitive: 0
+        ring:
+          color: {r: 0.1490072, g: 1, b: 0, a: 0.4627451}
+          startRadius: 0.06
+          endRadius: 0.42
+          duration: 0.35
+          fade:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 2
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 1
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        offset: {x: 0, y: 0}
+        useMomentTint: 0
+    - rid: 2440866949803802663
+      type: {class: PuffBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 1
+        source: 1
+        puff:
+          count: 8
+          sprites: []
+          colors: []
+          speed: 1.1
+          gravity: -2.6
+          life: 0.55
+          size: 0.05
+          upBias: 0.6
+          spinDegrees: 360
+          scaleIn: 0
+          shrink: 0.6
+          fadeStart: 0.6
+          anim:
+            frames: []
+            sheet: {fileID: 0}
+            cellSize: 96
+            cellHeight: 0
+            cellRects: []
+            row: 1
+            frameCount: 7
+            fps: 24
+            tint: {r: 1, g: 1, b: 1, a: 1}
+            flipY: 0
+            angleOffsetDeg: 0
+            worldSize: 1
+            forwardOffset: 0
+            offsetY: 0
+            glow: 0
+            glowTint: {r: 1, g: 0.85, b: 0.53, a: 1}
+            glowAlpha: 0.5
+            glowScale: 1.25
+            ghostCount: 0
+            ghostFrameLag: 1
+            ghostAlphaFalloff: 0.45
+            ghostTint: {r: 1, g: 1, b: 1, a: 0.6}
+            sfx:
+              sound: {fileID: 0}
+              clip: {fileID: 0}
+              variants: []
+              volume: 0.8
+              pitchJitter: 0.06
+              trimStart: 0
+              trimEnd: 1
+              delay: 0
+          animOverLife: 1
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        offset: {x: 0, y: 0}
+        useMomentTint: 0
+    - rid: 2440866949803802672
+      type: {class: SfxBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        sfx:
+          sound: {fileID: 11400000, guid: fccd7172599d382b58ea76c7bfccf0eb, type: 2}
+          clip: {fileID: 8300000, guid: 0ff81bafab66a274c98bdb9dcf58a09f, type: 3}
+          variants: []
+          volume: 1
+          pitchJitter: 0.08
+          trimStart: 0
+          trimEnd: 1
+          delay: 0
+    - rid: 2440866949803802673
+      type: {class: PuffBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 1
+        source: 1
+        puff:
+          count: 8
+          sprites: []
+          colors:
+          - {r: 0.54, g: 0.42, b: 0.28, a: 1}
+          - {r: 0.70980394, g: 0.87058824, b: 0.5372549, a: 1}
+          - {r: 0.14901961, g: 0.38039216, b: 0.41960785, a: 1}
+          speed: 1.1
+          gravity: -2.6
+          life: 0.55
+          size: 0.05
+          upBias: 0.6
+          spinDegrees: 360
+          scaleIn: 0
+          shrink: 0.6
+          fadeStart: 0.6
+          anim:
+            frames: []
+            sheet: {fileID: 0}
+            cellSize: 96
+            cellHeight: 0
+            cellRects: []
+            row: 1
+            frameCount: 7
+            fps: 24
+            tint: {r: 1, g: 1, b: 1, a: 1}
+            flipY: 0
+            angleOffsetDeg: 0
+            worldSize: 1
+            forwardOffset: 0
+            offsetY: 0
+            glow: 0
+            glowTint: {r: 1, g: 0.85, b: 0.53, a: 1}
+            glowAlpha: 0.5
+            glowScale: 1.25
+            ghostCount: 0
+            ghostFrameLag: 1
+            ghostAlphaFalloff: 0.45
+            ghostTint: {r: 1, g: 1, b: 1, a: 0.6}
+            sfx:
+              sound: {fileID: 0}
+              clip: {fileID: 0}
+              variants: []
+              volume: 0.8
+              pitchJitter: 0.06
+              trimStart: 0
+              trimEnd: 1
+              delay: 0
+          animOverLife: 1
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        offset: {x: 0, y: 0}
+        useMomentTint: 0
+    - rid: 2440866949803802674
+      type: {class: PuffBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0.046154577
+        usePrimitive: 0
+        source: 0
+        puff:
+          count: 5
+          sprites:
+          - {fileID: -1563393817, guid: 38e632df29909b249a382b2d53b7a50a, type: 3}
+          - {fileID: -52769009, guid: 38e632df29909b249a382b2d53b7a50a, type: 3}
+          - {fileID: 1581302308, guid: 38e632df29909b249a382b2d53b7a50a, type: 3}
+          colors:
+          - {r: 1, g: 1, b: 1, a: 1}
+          - {r: 1, g: 1, b: 1, a: 1}
+          - {r: 1, g: 1, b: 1, a: 1}
+          speed: 1
+          gravity: -2.9
+          life: 0.44
+          size: 1.19
+          upBias: 0
+          spinDegrees: 360
+          scaleIn: 0.232
+          shrink: 0.28
+          fadeStart: 0.336
+          anim:
+            frames: []
+            sheet: {fileID: 0}
+            cellSize: 96
+            cellHeight: 0
+            cellRects: []
+            row: 1
+            frameCount: 7
+            fps: 24
+            tint: {r: 1, g: 1, b: 1, a: 1}
+            flipY: 0
+            angleOffsetDeg: 0
+            worldSize: 1
+            forwardOffset: 0
+            offsetY: 0
+            glow: 0
+            glowTint: {r: 1, g: 0.85, b: 0.53, a: 1}
+            glowAlpha: 0.5
+            glowScale: 1.25
+            ghostCount: 0
+            ghostFrameLag: 1
+            ghostAlphaFalloff: 0.45
+            ghostTint: {r: 1, g: 1, b: 1, a: 0.6}
+            sfx:
+              sound: {fileID: 0}
+              clip: {fileID: 0}
+              variants: []
+              volume: 0.8
+              pitchJitter: 0.06
+              trimStart: 0
+              trimEnd: 1
+              delay: 0
+          animOverLife: 0
+          sfx:
+            sound: {fileID: 11400000, guid: e090519b2473ecf3a7303b69fbaa95b0, type: 2}
+            clip: {fileID: 8300000, guid: 73b20046289a5cb4b861b286a3c38b91, type: 3}
+            variants: []
+            volume: 1
+            pitchJitter: 0.06
+            trimStart: 0.22227937
+            trimEnd: 0.32607603
+            delay: 0
+        offset: {x: 0, y: 0}
+        useMomentTint: 0
+    - rid: 2440866949803802675
+      type: {class: FlashBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 1
+        flash:
+          color: {r: 1, g: 0.9, b: 0.7, a: 1}
+          peak: 1
+          attack: 0.02
+          decay: 0.14
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        impactFrame: 1
+        useMomentTint: 0
+    - rid: 2440866949803802676
+      type: {class: SquashBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 1
+        squash:
+          punch: 0.22
+          duration: 0.28
+          curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          anchorBottom: 1
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+    - rid: 2440866949803802677
+      type: {class: NudgeBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 1
+        nudge:
+          amplitude: 0.01300253
+          rotationDeg: 0.3
+          duration: 0.2
+          frequency: 16
+    - rid: 2440866949803802678
+      type: {class: HitStopBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 1
+        hitStop:
+          duration: 0.055
+          timeScale: 0.05
+    - rid: 2440866949803802679
+      type: {class: SfxBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        sfx:
+          sound: {fileID: 11400000, guid: 1ebd88484a36389dfaa9dd871c30f6fe, type: 2}
+          clip: {fileID: 8300000, guid: 0ff81bafab66a274c98bdb9dcf58a09f, type: 3}
+          variants: []
+          volume: 1
+          pitchJitter: 0.08
+          trimStart: 0
+          trimEnd: 1
+          delay: 0
+    - rid: 2440866949803802680
+      type: {class: PuffBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 1
+        source: 1
+        puff:
+          count: 8
+          sprites: []
+          colors:
+          - {r: 0.54, g: 0.42, b: 0.28, a: 1}
+          - {r: 0.70980394, g: 0.87058824, b: 0.5372549, a: 1}
+          - {r: 0.14901961, g: 0.38039216, b: 0.41960785, a: 1}
+          speed: 1.1
+          gravity: -2.6
+          life: 0.55
+          size: 0.05
+          upBias: 0.6
+          spinDegrees: 360
+          scaleIn: 0
+          shrink: 0.6
+          fadeStart: 0.6
+          anim:
+            frames: []
+            sheet: {fileID: 0}
+            cellSize: 96
+            cellHeight: 0
+            cellRects: []
+            row: 1
+            frameCount: 7
+            fps: 24
+            tint: {r: 1, g: 1, b: 1, a: 1}
+            flipY: 0
+            angleOffsetDeg: 0
+            worldSize: 1
+            forwardOffset: 0
+            offsetY: 0
+            glow: 0
+            glowTint: {r: 1, g: 0.85, b: 0.53, a: 1}
+            glowAlpha: 0.5
+            glowScale: 1.25
+            ghostCount: 0
+            ghostFrameLag: 1
+            ghostAlphaFalloff: 0.45
+            ghostTint: {r: 1, g: 1, b: 1, a: 0.6}
+            sfx:
+              sound: {fileID: 0}
+              clip: {fileID: 0}
+              variants: []
+              volume: 0.8
+              pitchJitter: 0.06
+              trimStart: 0
+              trimEnd: 1
+              delay: 0
+          animOverLife: 1
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        offset: {x: 0, y: 0}
+        useMomentTint: 0
+    - rid: 2440866949803802681
+      type: {class: PuffBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0.046154577
+        usePrimitive: 0
+        source: 0
+        puff:
+          count: 5
+          sprites:
+          - {fileID: -104659622, guid: 38e632df29909b249a382b2d53b7a50a, type: 3}
+          - {fileID: 1700958775, guid: 38e632df29909b249a382b2d53b7a50a, type: 3}
+          colors:
+          - {r: 1, g: 1, b: 1, a: 1}
+          - {r: 1, g: 1, b: 1, a: 1}
+          - {r: 1, g: 1, b: 1, a: 1}
+          speed: 1
+          gravity: -2.9
+          life: 0.44
+          size: 1.19
+          upBias: 0
+          spinDegrees: 360
+          scaleIn: 0.232
+          shrink: 0.28
+          fadeStart: 0.336
+          anim:
+            frames: []
+            sheet: {fileID: 0}
+            cellSize: 96
+            cellHeight: 0
+            cellRects: []
+            row: 1
+            frameCount: 7
+            fps: 24
+            tint: {r: 1, g: 1, b: 1, a: 1}
+            flipY: 0
+            angleOffsetDeg: 0
+            worldSize: 1
+            forwardOffset: 0
+            offsetY: 0
+            glow: 0
+            glowTint: {r: 1, g: 0.85, b: 0.53, a: 1}
+            glowAlpha: 0.5
+            glowScale: 1.25
+            ghostCount: 0
+            ghostFrameLag: 1
+            ghostAlphaFalloff: 0.45
+            ghostTint: {r: 1, g: 1, b: 1, a: 0.6}
+            sfx:
+              sound: {fileID: 0}
+              clip: {fileID: 0}
+              variants: []
+              volume: 0.8
+              pitchJitter: 0.06
+              trimStart: 0
+              trimEnd: 1
+              delay: 0
+          animOverLife: 0
+          sfx:
+            sound: {fileID: 11400000, guid: e090519b2473ecf3a7303b69fbaa95b0, type: 2}
+            clip: {fileID: 8300000, guid: 73b20046289a5cb4b861b286a3c38b91, type: 3}
+            variants: []
+            volume: 1
+            pitchJitter: 0.06
+            trimStart: 0.22227937
+            trimEnd: 0.32607603
+            delay: 0
+        offset: {x: 0, y: 0}
+        useMomentTint: 0
+    - rid: 2440866949803802682
+      type: {class: FlashBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 1
+        flash:
+          color: {r: 1, g: 0.9, b: 0.7, a: 1}
+          peak: 1
+          attack: 0.02
+          decay: 0.14
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        impactFrame: 1
+        useMomentTint: 0
+    - rid: 2440866949803802683
+      type: {class: SquashBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 1
+        squash:
+          punch: 0.22
+          duration: 0.28
+          curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          anchorBottom: 1
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+    - rid: 2440866949803802684
+      type: {class: NudgeBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 1
+        nudge:
+          amplitude: 0.01300253
+          rotationDeg: 0.3
+          duration: 0.2
+          frequency: 16
+    - rid: 2440866949803802685
+      type: {class: HitStopBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 1
+        hitStop:
+          duration: 0.055
+          timeScale: 0.05
+    - rid: 2440866949803802686
+      type: {class: EmoteBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 1
+        icon: 1
+        emote:
+          iconSet: []
+          icons: []
+          bubble: {fileID: 0}
+          iconTint: {r: 1, g: 1, b: 1, a: 1}
+          size: 0.16
+          riseOffset: 0.22
+          popIn: 0.12
+          hold: 0.9
+          popOut: 0.15
+          overshoot: 1.15
+          sortingOrder: 120
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+    - rid: 2440866949803802688
+      type: {class: SfxBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        sfx:
+          sound: {fileID: 11400000, guid: 55be77699d27c9e49befd1e15c00c8af, type: 2}
+          clip: {fileID: 8300000, guid: 1e604d702e0c1f0478c9c665a613dedd, type: 3}
+          variants: []
+          volume: 1
+          pitchJitter: 0.06
+          trimStart: 0.777055
+          trimEnd: 0.90948564
+          delay: 0
+    - rid: 2440866949803802690
+      type: {class: FloatAuraBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0.10002811
+        usePrimitive: 0
+        aura:
+          count: 3
+          sprites:
+          - {fileID: 1524197056, guid: f7e6b187e70a3e14bb18c7a75891a324, type: 3}
+          colors:
+          - {r: 1, g: 1, b: 1, a: 1}
+          emitOver: 0.45
+          riseHeight: 0.74710536
+          riseDuration: 0.9
+          spread: 0.47
+          swayAmp: 0
+          swayHz: 0
+          size: 0.12
+          scaleIn: 0.4
+          fadeStart: 0.55
+          tiltDegrees: 8
+          sortingOrder: 70
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        offset: {x: 0, y: 0}
+        useMomentTint: 0
+    - rid: 2440866949803802691
+      type: {class: RingBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0.05557101
+        usePrimitive: 0
+        ring:
+          color: {r: 0.1490072, g: 1, b: 0, a: 0.4627451}
+          startRadius: 0.06
+          endRadius: 0.42
+          duration: 0.35
+          fade:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 2
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 1
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        offset: {x: 0, y: 0}
+        useMomentTint: 0
+    - rid: 2440866949803802692
+      type: {class: FlashBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 1
+        flash:
+          color: {r: 1, g: 0.92, b: 0.75, a: 1}
+          peak: 1
+          attack: 0.02
+          decay: 0.14
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        impactFrame: 1
+        useMomentTint: 0
+    - rid: 2440866949803802693
+      type: {class: SquashBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 1
+        squash:
+          punch: 0.2
+          duration: 0.28
+          curve:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          anchorBottom: 1
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+    - rid: 2440866949803802694
+      type: {class: ConvergeBlock, ns: Flynn.Modules.FXLab, asm: Flynn.Modules.FXLab}
+      data:
+        enabled: 1
+        delay: 0
+        usePrimitive: 0
+        converge:
+          count: 5
+          sprites:
+          - {fileID: -1064710079, guid: 2a73e73910a08864a85cf7dc4795674b, type: 3}
+          - {fileID: -762149297, guid: 2a73e73910a08864a85cf7dc4795674b, type: 3}
+          - {fileID: 1121743108, guid: 7e71e74b70af6f7488620ca36d16d9ee, type: 3}
+          colors:
+          - {r: 1, g: 1, b: 1, a: 0.92156863}
+          startRadius: 0.34
+          radiusJitter: 0.17
+          angleJitter: 10
+          duration: 0.55
+          stagger: 0.04
+          pull:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 2
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          swirlDegrees: 45
+          spinDegrees: 180
+          size: 2.58
+          endScale: 0.672
+          fadeStart: 0.414
+          sortingOrder: 65
+          sfx:
+            sound: {fileID: 0}
+            clip: {fileID: 0}
+            variants: []
+            volume: 0.8
+            pitchJitter: 0.06
+            trimStart: 0
+            trimEnd: 1
+            delay: 0
+        offset: {x: 0, y: 0}
+        useMomentTint: 0

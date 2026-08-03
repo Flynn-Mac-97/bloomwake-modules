@@ -1,0 +1,1561 @@
+fileFormatVersion: 2
+guid: f7e6b187e70a3e14bb18c7a75891a324
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: solarpunk_icons_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1096
+        width: 94
+        height: 78
+      alignment: 9
+      pivot: {x: 0.49405742, y: 0.53086114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db9b5fdb46f051438b7b58fb9a8fa5c
+      internalID: -484169569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1094
+        width: 102
+        height: 83
+      alignment: 9
+      pivot: {x: 0.5426188, y: 0.54608756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d918baf83e686a0429ceb0c437e4e621
+      internalID: 2140880179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1052.625
+        width: 151
+        height: 150.375
+      alignment: 9
+      pivot: {x: 0.5196703, y: 0.54608756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d849d153515674bae7d8fa40bb69e7
+      internalID: 1658382046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_3
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1052.625
+        width: 151
+        height: 150.375
+      alignment: 9
+      pivot: {x: 0.52950543, y: 0.5230438}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e368f2f1bab4d545b287dac1fcb4eb8
+      internalID: -2074525900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_4
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1052.625
+        width: 151
+        height: 150.375
+      alignment: 9
+      pivot: {x: 0.47049457, y: 0.53621155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d6675a53f9d204b8252c6c37e11971
+      internalID: 762829571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_5
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1052.625
+        width: 151
+        height: 150.375
+      alignment: 9
+      pivot: {x: 0.5000004, y: 0.53621155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ef16a9351da7b4fabbf2ed4b59929c
+      internalID: -2024000778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_6
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1052.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8440cd6f7a0abe143a95a9141cd0ef93
+      internalID: 1679858593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_7
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1090
+        width: 87
+        height: 88
+      alignment: 9
+      pivot: {x: 0.48688674, y: 0.53621155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687ccef3ff5f81d43a1f308f2a51ef19
+      internalID: -1546690204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 940
+        width: 110
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28575996a6194584ca53f4e81aab6bdc
+      internalID: -647416499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_9
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 938
+        width: 110
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274920e0321dd1e45bb444bac1e844c7
+      internalID: -256563588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_10
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 902.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17ee1e7f81060d4aa70d48567c2ef6f
+      internalID: 633021441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_11
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 902.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d006b1af3b1fc5408b79d857725cdef
+      internalID: -321649026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_12
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 902.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ba992dcd207bc4e8bcb70d3722f3c1
+      internalID: -1282528013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_13
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 902.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d556deb218e3424db91e4f8879b7ec6
+      internalID: 909502366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_14
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 902.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4efa54510851d4d93c8f89d82d7033
+      internalID: -10279249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_15
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 931
+        width: 130
+        height: 102
+      alignment: 9
+      pivot: {x: 0.48688674, y: 0.519752}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4830ed395765919468a0a9b7f81eb57a
+      internalID: 1877797184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_16
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 778
+        width: 102
+        height: 119
+      alignment: 9
+      pivot: {x: 0.47807255, y: 0.5880745}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac58465f46806e4ca7eb393486340e6
+      internalID: 589861722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_17
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 752.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f936ec02813f8444ae14af5c87372cd
+      internalID: 1440854416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_18
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 752.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4e23ddcee067848a592b12a41dd4d1
+      internalID: 1736174203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_19
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 752.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3cc7b182777ef40adaeaad2d92c792
+      internalID: 1910515492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_20
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 785
+        width: 111
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcf0806eaf88384f99ace7661fc3e0d
+      internalID: 114461880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_21
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 752.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6979e2d169a7ce94dafc81a3f86b92be
+      internalID: -2076823282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_22
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 752.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f916581601847e468122e3bf399fa47
+      internalID: -997411469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_23
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 752.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d96f7bb52ab374c897bd0140a9ad15
+      internalID: 661103959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 602.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a7dc1e2e50e1e4f9fbf076cbc6fa06
+      internalID: 118917351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_25
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 602.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3ec599185f09e4187934a8653e775d
+      internalID: 241564369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_26
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 602.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4051b03005ed951428dd715d4818a374
+      internalID: -401108966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_27
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 602.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c38171d6eed8144096a1cfdfc2d1ec4
+      internalID: -1252242179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_28
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 602.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d97e14cbe6d194b86199c172bc1690
+      internalID: 1852197672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_29
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 602.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c230cf9c244d224cafca3b5fcbe05e2
+      internalID: 114499979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_30
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 602.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b084b7257ca0b44cab13f9741ac1b58
+      internalID: 1189940960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_31
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 628
+        width: 93
+        height: 117
+      alignment: 9
+      pivot: {x: 0.48181477, y: 0.53043497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adfecf544e19514d931e1cac95005c0
+      internalID: 177158389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_32
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 468
+        width: 90
+        height: 120
+      alignment: 9
+      pivot: {x: 0.48181456, y: 0.5121741}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6d7014af416ae40ba0bd34dc92409a
+      internalID: -1907679772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_33
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 452.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b8425d9baf4fd42a0dcb4f29389dfe
+      internalID: -1766499034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_34
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 452.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba3c34fdc2b9f0439ee05164aa99d31
+      internalID: -1625993240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_35
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 452.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7ff249aaf23c34dac9f036899e6921
+      internalID: 1470414235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_36
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 452.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84abb60be468c846bb87896760f6d4a
+      internalID: -1901341600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_37
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 452.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011790e014603294f94fb2a29a35d2e8
+      internalID: 25804531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_38
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 452.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ae88581aac27f468cb3b9d55eba655
+      internalID: 533441728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_39
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 452.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cffb2a4c9968b4683c63f4df8a707f
+      internalID: 1090051524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 302.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae2c934190ea7346aa86a96d592ee56
+      internalID: 362305832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_41
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 302.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486bf2a0e7e5f774fb1eb5c63417366f
+      internalID: -710867686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_42
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 302.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a5a3098dceb594abd385a3d107d60a
+      internalID: -1338710644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_43
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 302.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08841a6583f828049bc417c04c9c4d02
+      internalID: 758719273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_44
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 302.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf24846b352b6c418c36b9d46b9f44d
+      internalID: 610078864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_45
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 302.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26f82b5358324f4ea96ace964bed7d4
+      internalID: -756514383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_46
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 302.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1deb16baef1d74d44a0464ea709e1993
+      internalID: 1524197056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_47
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 302.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4451142fa77864b42b22d3d5f3654152
+      internalID: -281988085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd70c5683c642624a99d13a76099c860
+      internalID: -959843229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_49
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 152.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851e11489d7a90d42b84eb50786ae4a0
+      internalID: 1102920084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_50
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 152.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d70492640495a40a956ed2171dcba5
+      internalID: -869458646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_51
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 152.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fdaff9fbedfdb4b93f17f1119dbe9b
+      internalID: -1664905231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_52
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 152.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d7a9beeba5a594c94e4b11162836b1
+      internalID: 1154140020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_53
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 152.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2248697b9fd38c24e911aebfb055613d
+      internalID: 1804240302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_54
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 152.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b64fd32343c294c9b5b30cf76f8315
+      internalID: 1606605511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_55
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 152.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22133465820f70447bf993fc9891e2c6
+      internalID: 1380540208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be80cae68afad01408c39195ca609ebf
+      internalID: -2029376909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_57
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b4c7624ff418449be04a9e5ae9f671
+      internalID: 945269551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_58
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 2.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a7b59f012d4ce4ab6e14532ed31645
+      internalID: 469164509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_59
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 2.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd6518b18985aa40ae63878502c3944
+      internalID: -1724123662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_60
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dda0ddc257115248b970ea18fa1e533
+      internalID: -658851412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_61
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 2.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448df1d2778927348ac678e5c09235e0
+      internalID: -101764785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_62
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 2.625
+        width: 151
+        height: 150.375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ddee78638012d48b5528512e44819b
+      internalID: 870118152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpunk_icons_63
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 18
+        width: 96
+        height: 117
+      alignment: 9
+      pivot: {x: 0.47575328, y: 0.48782596}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4556db4a01d51a84c9342d5ab42fd368
+      internalID: 1588301747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      solarpunk_icons_0: -484169569
+      solarpunk_icons_1: 2140880179
+      solarpunk_icons_10: 633021441
+      solarpunk_icons_11: -321649026
+      solarpunk_icons_12: -1282528013
+      solarpunk_icons_13: 909502366
+      solarpunk_icons_14: -10279249
+      solarpunk_icons_15: 1877797184
+      solarpunk_icons_16: 589861722
+      solarpunk_icons_17: 1440854416
+      solarpunk_icons_18: 1736174203
+      solarpunk_icons_19: 1910515492
+      solarpunk_icons_2: 1658382046
+      solarpunk_icons_20: 114461880
+      solarpunk_icons_21: -2076823282
+      solarpunk_icons_22: -997411469
+      solarpunk_icons_23: 661103959
+      solarpunk_icons_24: 118917351
+      solarpunk_icons_25: 241564369
+      solarpunk_icons_26: -401108966
+      solarpunk_icons_27: -1252242179
+      solarpunk_icons_28: 1852197672
+      solarpunk_icons_29: 114499979
+      solarpunk_icons_3: -2074525900
+      solarpunk_icons_30: 1189940960
+      solarpunk_icons_31: 177158389
+      solarpunk_icons_32: -1907679772
+      solarpunk_icons_33: -1766499034
+      solarpunk_icons_34: -1625993240
+      solarpunk_icons_35: 1470414235
+      solarpunk_icons_36: -1901341600
+      solarpunk_icons_37: 25804531
+      solarpunk_icons_38: 533441728
+      solarpunk_icons_39: 1090051524
+      solarpunk_icons_4: 762829571
+      solarpunk_icons_40: 362305832
+      solarpunk_icons_41: -710867686
+      solarpunk_icons_42: -1338710644
+      solarpunk_icons_43: 758719273
+      solarpunk_icons_44: 610078864
+      solarpunk_icons_45: -756514383
+      solarpunk_icons_46: 1524197056
+      solarpunk_icons_47: -281988085
+      solarpunk_icons_48: -959843229
+      solarpunk_icons_49: 1102920084
+      solarpunk_icons_5: -2024000778
+      solarpunk_icons_50: -869458646
+      solarpunk_icons_51: -1664905231
+      solarpunk_icons_52: 1154140020
+      solarpunk_icons_53: 1804240302
+      solarpunk_icons_54: 1606605511
+      solarpunk_icons_55: 1380540208
+      solarpunk_icons_56: -2029376909
+      solarpunk_icons_57: 945269551
+      solarpunk_icons_58: 469164509
+      solarpunk_icons_59: -1724123662
+      solarpunk_icons_6: 1679858593
+      solarpunk_icons_60: -658851412
+      solarpunk_icons_61: -101764785
+      solarpunk_icons_62: 870118152
+      solarpunk_icons_63: 1588301747
+      solarpunk_icons_7: -1546690204
+      solarpunk_icons_8: -647416499
+      solarpunk_icons_9: -256563588
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

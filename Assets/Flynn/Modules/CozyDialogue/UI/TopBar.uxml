@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Flynn/Modules/CozyDialogue/UI/theme.uss?fileID=7433441132597879392&amp;guid=f3549c7e273a7fe4f9f149f685d2d988&amp;type=3#theme" />
+    <ui:VisualElement name="top-bar" picking-mode="Ignore" class="top-bar">
+        <ui:VisualElement class="chip">
+            <ui:VisualElement class="leaf-dot" />
+            <ui:Label name="location-label" text="Mosslight Clearing" class="chip__text" />
+        </ui:VisualElement>
+        <ui:VisualElement name="gauge" class="gauge">
+            <ui:VisualElement class="gauge__disc">
+                <ui:Label name="gauge-num" text="2" class="gauge__num" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="chip">
+            <ui:Label text="Understanding" class="chip__text" />
+            <ui:Label name="understand-count" text="2 / 8" class="chip__count" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

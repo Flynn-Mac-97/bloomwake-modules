@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b0945c63fe34ce45bb02a874e29eaf1, type: 3}
+  m_Name: WaterProfile
+  m_EditorClassIdentifier: 
+  unitScale: 0.22
+  contour:
+    boundaryMode: 1
+    tangentMode: 1
+    inset: 2.2
+    tangentLength: 0.657
+  waterTexture: {fileID: 2800000, guid: e08545f137ef57d4f92088daa93f3c96, type: 3}
+  textureScale: 2.59
+  scrollSpeed: {x: 0.16, y: 0.015}
+  layerAnim: 0.46
+  bodyColor: {r: 0, g: 1, b: 0.90196085, a: 1}
+  alpha: 1
+  edgeBlend: 0.09
+  shoreColor: {r: 1, g: 1, b: 1, a: 1}
+  shoreWidth: 0.06
+  ringSpacing: 0.08
+  ringWidth: 0.11
+  ringSpeed: -0.5
+  ringStrength: 0.332
+  ringWobble: 0.03
+  underwaterTexture: {fileID: 2800000, guid: 0f771adbad6d36b49888e1144bfcc8b7, type: 3}
+  underwaterScale: 0.99
+  underwaterTint: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 1}
+  floorVisibility: 0.396
+  bankColor: {r: 0.7449667, g: 0.5990566, b: 1, a: 1}
+  bankHeight: 0.79
+  bankOffsetY: 0
+  bankSideInset: 0.4
+  bankStrength: 0.3
+  rimScale: 3.4
+  rimTint: {r: 1, g: 1, b: 1, a: 1}
+  rimOuterFade: 0.66
+  rimWetBand: 0.112
+  rimWetColor: {r: 1, g: 1, b: 1, a: 0.7}
+  rimSway: 0.04
+  rimSwaySpeed: 0.46

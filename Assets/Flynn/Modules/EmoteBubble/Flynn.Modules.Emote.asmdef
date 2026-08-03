@@ -1,0 +1,18 @@
+{
+    "name": "Flynn.Modules.Emote",
+    "rootNamespace": "Flynn.Feel",
+    "references": [
+        "Flynn.Feel",
+        "PrimeTween.Runtime",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

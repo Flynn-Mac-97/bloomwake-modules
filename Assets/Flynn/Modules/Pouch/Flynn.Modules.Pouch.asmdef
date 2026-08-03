@@ -1,0 +1,27 @@
+﻿{
+    "name":  "Flynn.Modules.Pouch",
+    "rootNamespace":  "Flynn.Modules.Pouch",
+    "references":  [
+                       "Flynn.Base",
+                       "Flynn.PlayerInventory"
+                   ],
+    "includePlatforms":  [
+
+                         ],
+    "excludePlatforms":  [
+
+                         ],
+    "allowUnsafeCode":  false,
+    "overrideReferences":  false,
+    "precompiledReferences":  [
+
+                              ],
+    "autoReferenced":  true,
+    "defineConstraints":  [
+
+                          ],
+    "versionDefines":  [
+
+                       ],
+    "noEngineReferences":  false
+}

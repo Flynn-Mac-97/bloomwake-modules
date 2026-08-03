@@ -1,0 +1,19 @@
+{
+    "name": "Flynn.Modules.LevelLoad",
+    "rootNamespace": "Flynn.Environment",
+    "references": [
+        "Flynn.Contracts",
+        "Unity.2D.SpriteShape.Runtime",
+        "Flynn.Base",
+        "David.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

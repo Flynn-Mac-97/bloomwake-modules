@@ -1,0 +1,402 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="TplDialogue" src="project://database/Assets/Flynn/Modules/CozyDialogue/UI/Dialogue.uxml?fileID=9197481963319205126&amp;guid=1e98acc9168843140ad363061b0e6db8&amp;type=3#Dialogue" />
+    <ui:Template name="TplDrawer" src="project://database/Assets/Flynn/Modules/CozyDialogue/UI/Drawer.uxml?fileID=9197481963319205126&amp;guid=2125bc7d260ca1545a8bc0389a8e9580&amp;type=3#Drawer" />
+    <ui:Template name="TplTopBar" src="project://database/Assets/Flynn/Modules/CozyDialogue/UI/TopBar.uxml?fileID=9197481963319205126&amp;guid=4296aaa33fc4724498f67a837072ca8d&amp;type=3#TopBar" />
+    <ui:Template name="TplDecode" src="project://database/Assets/Flynn/Modules/CozyDialogue/UI/Decode.uxml?fileID=9197481963319205126&amp;guid=54cd5c3bb7f1239429cd180d7d4be46d&amp;type=3#Decode" />
+    <ui:Template name="TplAlert" src="project://database/Assets/Flynn/Modules/CozyDialogue/UI/Alert.uxml?fileID=9197481963319205126&amp;guid=f6c5e33ae7dc7bc469991e37acf6784c&amp;type=3#Alert" />
+    <ui:Template name="TplBark" src="project://database/Assets/Flynn/Modules/CozyDialogue/UI/Bark.uxml?fileID=9197481963319205126&amp;guid=35da1acf2cc20bb4b95cf2181b6386a2&amp;type=3#Bark" />
+    <ui:Template name="TplHoverCue" src="project://database/Assets/Flynn/Modules/CozyDialogue/UI/HoverCue.uxml?fileID=9197481963319205126&amp;guid=5803a19d6faee144b8108ca5f69eddd6&amp;type=3#HoverCue" />
+    <Style src="project://database/Assets/Flynn/Modules/CozyDialogue/UI/theme.uss?fileID=7433441132597879392&amp;guid=f3549c7e273a7fe4f9f149f685d2d988&amp;type=3#theme" />
+    <Style src="project://database/Assets/Flynn/Modules/CozyDialogue/UI/gallery.uss?fileID=7433441132597879392&amp;guid=f9f24660c85c56149ab431cdf1b77c73&amp;type=3#gallery" />
+    <ui:ScrollView class="gal-page">
+        <ui:Label text="COZY UI — COMPONENT ATLAS" class="gal-title" />
+        <ui:Label text="Single source of truth: every component lives here, styled ONLY by theme.uss classes. Edit a class → game and atlas update together. Design here, never per-scene." class="gal-sub" />
+        <ui:VisualElement class="gal-section">
+            <ui:Label text="FULL LAYERS (0.4x)" class="gal-section-title" />
+            <ui:VisualElement class="gal-row">
+                <ui:VisualElement class="gal-frame">
+                    <ui:VisualElement class="gal-frame__inner">
+                        <ui:Instance template="TplDialogue" class="gal-fill" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-frame">
+                    <ui:VisualElement class="gal-frame__inner">
+                        <ui:Instance template="TplDrawer" class="gal-fill" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-frame">
+                    <ui:VisualElement class="gal-frame__inner">
+                        <ui:Instance template="TplTopBar" class="gal-fill" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-frame">
+                    <ui:VisualElement class="gal-frame__inner">
+                        <ui:Instance template="TplDecode" class="gal-fill" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="gal-section">
+            <ui:Label text="OVERLAYS (1:1)" class="gal-section-title" />
+            <ui:VisualElement class="gal-row">
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="alert" class="gal-label" />
+                    <ui:Instance template="TplAlert" class="gal-static" />
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="bark" class="gal-label" />
+                    <ui:Instance template="TplBark" class="gal-static" />
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="hover cue" class="gal-label" />
+                    <ui:Instance template="TplHoverCue" class="gal-static" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="gal-section">
+            <ui:Label text="TEXT ROLES" class="gal-section-title" />
+            <ui:VisualElement class="gal-row">
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="dialogue-line" class="gal-label" />
+                    <ui:Label text="The relay hums like it&apos;s dreaming." class="dialogue-line" />
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="frow__name / --locked" class="gal-label" />
+                    <ui:Label text="Wind chorus" class="frow__name" />
+                    <ui:Label text="Unknown" class="frow__name frow__name--locked" />
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="drawer__section · drawer__title" class="gal-label" />
+                    <ui:Label text="RECENT &amp; CURRENT" class="drawer__section" />
+                    <ui:Label text="FIELD ARCHIVE" class="drawer__title" />
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="term (clickable topic)" class="gal-label" />
+                    <ui:VisualElement class="line-flow">
+                        <ui:VisualElement class="term__diamond" />
+                        <ui:Label text="wind" class="lw term" />
+                        <ui:Label text="chorus" class="lw term" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="gal-section">
+            <ui:Label text="TAGS + STATUS" class="gal-section-title" />
+            <ui:VisualElement class="gal-row">
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="tag--person / world / artifact / thread + frow__status" class="gal-label" />
+                    <ui:VisualElement class="gal-row">
+                        <ui:Label text="PERSON" class="tag tag--person" />
+                        <ui:Label text="WORLD" class="tag tag--world" />
+                        <ui:Label text="ARTIFACT" class="tag tag--artifact" />
+                        <ui:Label text="THREAD" class="tag tag--thread" />
+                        <ui:Label text="OBSERVED" class="frow__status" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="dstep (progress rows)" class="gal-label" />
+                    <ui:VisualElement class="dstep">
+                        <ui:VisualElement class="dstep__dot" />
+                        <ui:Label text="Moss lantern" class="dstep__text" />
+                        <ui:Label text="FOUND" class="dstep__state" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="dstep">
+                        <ui:VisualElement class="dstep__dot dstep__dot--off" />
+                        <ui:Label text="Unknown lead" class="dstep__text dstep__text--off" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="gal-section">
+            <ui:Label text="BUTTONS + CHIPS" class="gal-section-title" />
+            <ui:VisualElement class="gal-row">
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="fchip / fchip--on" class="gal-label" />
+                    <ui:VisualElement class="gal-row">
+                        <ui:Label text="All" class="fchip fchip--on" />
+                        <ui:Label text="People" class="fchip" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="archive-btn" class="gal-label" />
+                    <ui:VisualElement class="archive-btn">
+                        <ui:Label text="Y" class="archive-btn__key" />
+                        <ui:Label text="Field Archive" class="archive-btn__text" />
+                        <ui:VisualElement class="archive-btn__dot" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="drawer__x · say-send · proceed" class="gal-label" />
+                    <ui:VisualElement class="gal-row">
+                        <ui:Label text="×" class="drawer__x" />
+                        <ui:Button class="say-send">
+                            <ui:VisualElement class="say-send__icon" />
+                        </ui:Button>
+                        <ui:VisualElement class="proceed proceed--in gal-static" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="top-bar chip" class="gal-label" />
+                    <ui:VisualElement class="chip">
+                        <ui:VisualElement class="leaf-dot" />
+                        <ui:Label text="Mosslight Clearing" class="chip__text" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="gal-section">
+            <ui:Label text="RESPONSE PILLS" class="gal-section-title" />
+            <ui:VisualElement class="gal-row">
+                <ui:VisualElement class="gal-cell" style="width: 620px;">
+                    <ui:Label text="choice / choice--in / --locked (+ hot bullet)" class="gal-label" />
+                    <ui:VisualElement class="choice choice--in">
+                        <ui:VisualElement class="choice__bullet" />
+                        <ui:Label text="Ask about the hum" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="choice choice--in">
+                        <ui:VisualElement class="choice__bullet choice__bullet--hot" />
+                        <ui:Label text="Ask what it contained" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="choice choice--in choice--locked">
+                        <ui:VisualElement class="choice__lock" />
+                        <ui:Label text="Ask about the eastern ridge" />
+                        <ui:Label text="EARN MORE TRUST" class="choice__hint" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-cell" style="width: 620px;">
+                    <ui:Label text="say-row" class="gal-label" />
+                    <ui:VisualElement class="say-row say-row--open" style="width: 100%;">
+                        <ui:TextField value="…or say it in your own words" class="say-input" />
+                        <ui:Button class="say-send">
+                            <ui:VisualElement class="say-send__icon" />
+                        </ui:Button>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="gal-section">
+            <ui:Label text="BADGES" class="gal-section-title" />
+            <ui:VisualElement class="gal-row">
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="badge--name + trust-chip" class="gal-label" />
+                    <ui:VisualElement class="badge badge--name gal-static" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-bottom-right-radius: 0; border-bottom-left-radius: 0;">
+                        <ui:Label text="Rowan" class="badge__name" />
+                        <ui:Label text="Gardener" class="badge__role" />
+                        <ui:VisualElement class="trust-chip">
+                            <ui:VisualElement class="trust-chip__icon" />
+                            <ui:Label text="2" class="trust-chip__count" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="badge--leave" class="gal-label" />
+                    <ui:VisualElement class="badge badge--leave gal-static">
+                        <ui:VisualElement class="badge__leave-icon" />
+                        <ui:Label text="Leave" class="badge__leave-text" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="gal-section">
+            <ui:Label text="TOKENS + GLYPHS" class="gal-section-title" />
+            <ui:VisualElement class="gal-row">
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="token__frame: default / amber / locked" class="gal-label" />
+                    <ui:VisualElement class="gal-row">
+                        <ui:VisualElement class="token">
+                            <ui:VisualElement class="token__frame token__frame--green">
+                                <ui:VisualElement class="token__inner">
+                                    <ui:VisualElement class="glyph-circle" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement class="token">
+                            <ui:VisualElement class="token__frame token__frame--amber">
+                                <ui:VisualElement class="token__inner">
+                                    <ui:Label text="?" class="glyph-q" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement class="token">
+                            <ui:VisualElement class="token__frame token__frame--locked">
+                                <ui:VisualElement class="token__inner">
+                                    <ui:VisualElement class="glyph-lock" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="glyph-diamond · frow__dot · drawer__grip · drawer__divider" class="gal-label" />
+                    <ui:VisualElement class="gal-row">
+                        <ui:VisualElement class="glyph-diamond" />
+                        <ui:VisualElement class="frow__dot" />
+                        <ui:VisualElement class="drawer__grip" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="drawer__divider" style="width: 240px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="gal-section">
+            <ui:Label text="ENTRY ROWS" class="gal-section-title" />
+            <ui:VisualElement class="gal-row">
+                <ui:VisualElement class="gal-cell" style="width: 460px;">
+                    <ui:Label text="frow (+ meta) / frow--locked / dsection" class="gal-label" />
+                    <ui:VisualElement class="frow" style="width: 100%;">
+                        <ui:VisualElement class="token">
+                            <ui:VisualElement class="token__frame token__frame--green">
+                                <ui:VisualElement class="token__inner">
+                                    <ui:VisualElement class="glyph-circle" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement class="frow__body">
+                            <ui:VisualElement class="frow__name-row">
+                                <ui:Label text="Wind chorus" class="frow__name" />
+                                <ui:VisualElement class="frow__dot" />
+                            </ui:VisualElement>
+                            <ui:VisualElement class="frow__meta">
+                                <ui:Label text="WORLD" class="tag tag--world" />
+                                <ui:Label text="OBSERVED" class="frow__status" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:Label text="›" class="frow__chev" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="frow frow--locked" style="width: 100%;">
+                        <ui:VisualElement class="token">
+                            <ui:VisualElement class="token__frame token__frame--locked">
+                                <ui:VisualElement class="token__inner">
+                                    <ui:VisualElement class="glyph-lock" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement class="frow__body">
+                            <ui:Label text="Unknown" class="frow__name frow__name--locked" />
+                            <ui:Label text="Something is humming out there." class="frow__hint" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="dsection" style="width: 100%;">
+                        <ui:Label text="CURRENT LEAD" class="dsection__label" />
+                        <ui:Label text="Rowan says the humming started the night of a storm." class="dsection__body" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="kit scrollbar (scroll to see)" class="gal-label" />
+                    <ui:ScrollView mode="Vertical" class="dialogue-scroll gal-scroll-demo">
+                        <ui:Label text="One" class="dialogue-line" />
+                        <ui:Label text="Two" class="dialogue-line" />
+                        <ui:Label text="Three" class="dialogue-line" />
+                        <ui:Label text="Four" class="dialogue-line" />
+                        <ui:Label text="Five" class="dialogue-line" />
+                        <ui:Label text="Six" class="dialogue-line" />
+                    </ui:ScrollView>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="gal-section">
+            <ui:Label text="STATES + VARIANTS" class="gal-section-title" />
+            <ui:VisualElement class="gal-row">
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="alert__tile: green / copper / amber" class="gal-label" />
+                    <ui:VisualElement class="gal-row">
+                        <ui:Label text="KN" class="alert__tile alert__tile--green" />
+                        <ui:Label text="EN" class="alert__tile alert__tile--copper" />
+                        <ui:Label text="TH" class="alert__tile alert__tile--amber" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="fchip__dot (unread filter)" class="gal-label" />
+                    <ui:Label text="Threads" class="fchip">
+                        <ui:VisualElement class="fchip__dot" />
+                    </ui:Label>
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="say-input--hint" class="gal-label" />
+                    <ui:TextField value="…or say it in your own words" class="say-input say-input--hint" style="width: 260px;" />
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="token--big + token__img (portrait)" class="gal-label" />
+                    <ui:VisualElement class="token token--big">
+                        <ui:VisualElement class="token__frame token__frame--green" style="width: 57px;">
+                            <ui:VisualElement class="token__inner">
+                                <ui:VisualElement class="token__img" style="background-image: url(&quot;project://database/Assets/UI/Concepts/VillageHub/Sprites/npc-child.png?fileID=21300000&amp;guid=f7dc51e6ffe09f94aaea61a15f49a730&amp;type=3#npc-child&quot;); width: 52px; height: 50px;" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="gal-row" style="height: 594px;">
+                <ui:VisualElement class="gal-cell" style="width: 420px; height: 362px;">
+                    <ui:Label text="drawer__detail push-view (detail__*)" class="gal-label" />
+                    <ui:VisualElement class="drawer__detail gal-static" style="width: 100%; height: 220px;">
+                        <ui:VisualElement class="detail__head">
+                            <ui:Label text="‹" class="detail__back" />
+                            <ui:VisualElement class="detail__head-text">
+                                <ui:Label text="Wind chorus" class="detail__name" />
+                                <ui:Label text="OBSERVED" class="detail__status detail__status--green" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:ScrollView class="detail__scroll">
+                            <ui:VisualElement class="dsection">
+                                <ui:Label text="FIELD RECORD" class="dsection__label" />
+                                <ui:Label text="The grove hums when the morning wind threads the reeds." class="dsection__body" />
+                                <ui:Label text="“Warm to the touch, even now.”" class="dsection__hint" />
+                            </ui:VisualElement>
+                        </ui:ScrollView>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="corrupt text (dsection / termcard)" class="gal-label" />
+                    <ui:Label text="k#rr…w1nd/ch0r—us…s%gnal" class="dsection__body dsection__body--corrupt" />
+                    <ui:Label text="d@ta⋯unre#dable⋯dec0de-f1rst" class="termcard__body termcard__body--corrupt" />
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="decode stages (dstage variants)" class="gal-label" />
+                    <ui:VisualElement class="dstage">
+                        <ui:VisualElement class="dstage__dot dstage__dot--done" />
+                        <ui:Label text="Signal lock" class="dstage__text" />
+                        <ui:Label text="DONE" class="dstage__state dstage__state--done" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="dstage">
+                        <ui:VisualElement class="dstage__dot dstage__dot--active" />
+                        <ui:Label text="Pattern match" class="dstage__text" />
+                        <ui:Label text="…" class="dstage__state" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="dstage">
+                        <ui:VisualElement class="dstage__dot" />
+                        <ui:Label text="Transcription" class="dstage__text" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="decode ok-states (light / meter seg)" class="gal-label" />
+                    <ui:VisualElement class="gal-row">
+                        <ui:VisualElement class="decode__light decode__light--ok" />
+                        <ui:VisualElement class="decode__seg decode__seg--on" />
+                        <ui:VisualElement class="decode__seg decode__seg--ok" />
+                        <ui:VisualElement class="decode__seg" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="hovercue--inspect / --decode" class="gal-label" />
+                    <ui:VisualElement class="gal-row">
+                        <ui:VisualElement class="hovercue hovercue--in hovercue--inspect gal-static">
+                            <ui:VisualElement class="hovercue__icon" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="hovercue hovercue--in hovercue--decode gal-static">
+                            <ui:VisualElement class="hovercue__icon" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement class="gal-cell">
+                    <ui:Label text="hovercue--known (journal badge)" class="gal-label" />
+                    <ui:VisualElement class="hovercue hovercue--in hovercue--chat hovercue--known gal-static">
+                        <ui:VisualElement class="hovercue__chat" />
+                        <ui:VisualElement class="hovercue__badge">
+                            <ui:VisualElement class="hovercue__badge-diamond" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:ScrollView>
+</ui:UXML>

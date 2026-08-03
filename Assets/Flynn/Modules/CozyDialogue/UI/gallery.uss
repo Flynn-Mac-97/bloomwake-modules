@@ -1,0 +1,113 @@
+.gal-page {
+    flex-direction: column;
+    padding: 24px;
+    background-color: rgb(56, 50, 40);
+    -unity-font-definition: url("project://database/Assets/Flynn/Art/Placeholder_UI/Fonts/Alegreya-VF.ttf?fileID=12800000&guid=d6e02116ce71a83479764a5cdb2c20a2&type=3#Alegreya-VF");
+}
+
+.gal-title {
+    color: rgb(240, 231, 204);
+    font-size: 22px;
+    -unity-font-style: bold;
+    margin-bottom: 4px;
+}
+
+.gal-sub {
+    color: rgba(240, 231, 204, 0.55);
+    font-size: 12px;
+    margin-bottom: 18px;
+}
+
+.gal-section {
+    margin-bottom: 26px;
+}
+
+.gal-section-title {
+    color: rgb(199, 154, 60);
+    font-size: 13px;
+    letter-spacing: 1px;
+    -unity-font-style: bold;
+    margin-bottom: 8px;
+}
+
+.gal-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.gal-cell {
+    margin: 0 10px 10px 0;
+    padding: 14px;
+    background-color: rgb(236, 224, 194);
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.25);
+    align-items: flex-start;
+}
+
+.gal-label {
+    color: rgb(122, 100, 60);
+    font-size: 10px;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
+
+.gal-static {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    translate: 0 0;
+    display: flex;
+}
+
+.gal-fill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.gal-cell .bark {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    translate: 0 0;
+}
+
+.gal-cell .hovercue {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    translate: 0 0;
+}
+
+.gal-frame {
+    width: 512px;
+    height: 288px;
+    overflow: hidden;
+    margin: 0 10px 10px 0;
+    border-width: 1px;
+    border-color: rgba(240, 231, 204, 0.2);
+}
+
+.gal-frame__inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1280px;
+    height: 720px;
+    scale: 0.4 0.4;
+    transform-origin: left top;
+}
+
+.gal-scroll-demo {
+    width: 260px;
+}

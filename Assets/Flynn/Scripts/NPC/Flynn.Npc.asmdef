@@ -1,0 +1,18 @@
+{
+    "name": "Flynn.Npc",
+    "rootNamespace": "Flynn.Npc",
+    "references": [
+        "Flynn.Base",
+        "Flynn.Contracts",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

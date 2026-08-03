@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 117282b8ab7a1ae4ebb2f5b8bcc1fe9a, type: 3}
+  m_Name: IslandProfile_Autumn
+  m_EditorClassIdentifier: 
+  contour:
+    boundaryMode: 1
+    tangentMode: 1
+    inset: 0
+    tangentLength: 0
+  skirtShape:
+    thickness: 2.11
+    profile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -0.008146239
+        value: 0.046923444
+        inSlope: 9.173483
+        outSlope: 9.173483
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.18126792
+      - serializedVersion: 3
+        time: 0.097958535
+        value: 1.2426764
+        inSlope: 0.92672855
+        outSlope: 0.92672855
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.05916686
+      - serializedVersion: 3
+        time: 0.39264953
+        value: 0.79222286
+        inSlope: -1.5285622
+        outSlope: -1.9676801
+        tangentMode: 69
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9535774
+        value: -0.31150377
+        inSlope: -0.46881554
+        outSlope: -0.46881554
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.06604838
+      - serializedVersion: 3
+        time: 0.9729629
+        value: -0.97707134
+        inSlope: -39.614204
+        outSlope: -39.614204
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.045330614
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    profileStrength: 0.19
+    bulgeSmoothing: 2.88
+    rows: 8
+    spacing: 0.3
+    topInset: 0.017
+    taperColumns: 1
+    bridgeGaps: 5
+  skirtShading:
+    shadeStrength: 0.844
+    shadeLightAngle: 354
+    layerShade: 0.429
+    creviceAO: 0.506
+  erosion:
+    noiseStrength: 0
+    depthJitter: 0
+    noiseScale: 3
+    seed: 23
+  fill:
+    baseTint: {r: 1, g: 0.72, b: 0.35, a: 1}
+    falloffEnabled: 1
+    falloffWidth: 0.29
+    edgeDarken: 0.362
+    falloffPower: 0.36
+    edgeTint: {r: 1, g: 1, b: 1, a: 1}
+    rollAmount: 0
+    rollPower: 0.5
+    detailTexture: {fileID: 2800000, guid: 870bb9d6a84be3e46a75096344f7c79d, type: 3}
+    detailScale: 2.28
+    detailStrength: 0
+    detailAspect: 0.5
+    detailAntiTile: 0.532
+    varStrength: 0.6
+    varScale: 0.11
+    varTintA: {r: 0.9, g: 0.65, b: 0.4, a: 1}
+    varTintB: {r: 1, g: 0.95, b: 0.7, a: 1}
+    gridColor: {r: 0.097677715, g: 0.17924526, b: 0.07355819, a: 0.59607846}
+    gridThickness: 0.005
+    gridSoftness: 0.34
+    gridCell: {x: 0.5, y: 0.25}
+    gridOffset: {x: -0.92, y: 0.95}
+    gridEdgeFade: 0.4
+    bandedLight: 1
+    lightBands: 3
+    bandSoftness: 0.135
+    bandWobble: 0.25
+    bandWobbleScale: 2
+    shadowTint: {r: 0.6033731, g: 0.63796526, b: 0.8584906, a: 1}
+  skirtSurface:
+    topColor: {r: 0.85, g: 0.55, b: 0.22, a: 1}
+    midColor: {r: 1, g: 1, b: 1, a: 1}
+    bottomColor: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
+    grassDepth: 0.02
+    blendSoftness: 0.162
+    detailTexture: {fileID: 2800000, guid: b6c1adb86a97a7d4ba22f1a62e091d3a, type: 3}
+    detailScale: 2.84
+    detailStrength: 1
+    strataCount: 5.97
+    strataDarken: 0.122
+    strataWarp: 1.41
+    topShadow: 0.622
+    topShadowDepth: 0.295
+    fadeStart: 0.672
+  fringe:
+    enabled: 1
+    stripTexture: {fileID: 2800000, guid: 50f9afd65e818c349a290f1ecdcc7280, type: 3}
+    artColored: 1
+    artBlend: 0.542
+    artRecolor: 1
+    texScale: 0.61
+    innerOverlap: 0
+    reach: 0.157
+    droop: 0.076
+    upFold: 0.6
+    rows: 4
+    smoothing: 1.28
+    vInner: 0.32
+    vOuter: 1
+    tint: {r: 1, g: 0.8, b: 0.45, a: 1}
+    tipDarken: 0
+    orderOffset: 1
+  rendering:
+    sortingLayer: 
+    sortingOrderOffset: -2
+  fillShader: {fileID: 4800000, guid: b2f8beadbb6e95e4ab58f500830d4950, type: 3}
+  skirtShader: {fileID: 4800000, guid: 9fc04b1da16d00f4cb481aa52fee28a8, type: 3}
+  fringeShader: {fileID: 4800000, guid: 4de4747f6dc213c458a49859fc4d5a7f, type: 3}

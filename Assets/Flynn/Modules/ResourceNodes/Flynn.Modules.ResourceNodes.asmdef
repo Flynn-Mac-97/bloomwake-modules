@@ -1,0 +1,18 @@
+{
+    "name": "Flynn.Modules.ResourceNodes",
+    "rootNamespace": "Flynn.Modules.ResourceNodes",
+    "references": [
+        "Flynn.Contracts",
+        "Flynn.Modules.LevelLoad",
+        "Flynn.Base"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Flynn.Modules.ItemFeel",
+    "rootNamespace": "Flynn.Modules.ItemFeel",
+    "references": [
+        "Flynn.Modules.FXLab",
+        "Flynn.Feel",
+        "Flynn.Base"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,78 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Flynn/Modules/CozyDialogue/UI/theme.uss?fileID=7433441132597879392&amp;guid=f3549c7e273a7fe4f9f149f685d2d988&amp;type=3#theme" />
+    <ui:VisualElement name="archive-layer" picking-mode="Ignore" class="archive-layer">
+        <ui:VisualElement name="archive-bar" picking-mode="Ignore" class="archive-bar">
+            <ui:VisualElement name="archive-btn" class="archive-btn">
+                <ui:Label text="Y" class="archive-btn__key" />
+                <ui:Label text="Field Archive" class="archive-btn__text" />
+                <ui:VisualElement name="archive-btn-dot" class="archive-btn__dot" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="archive-scrim" class="archive-scrim" style="top: 0;" />
+        <ui:VisualElement name="drawer" class="drawer drawer--in">
+            <ui:VisualElement picking-mode="Ignore" class="bevel bevel--tight" />
+            <ui:VisualElement class="drawer__head">
+                <ui:VisualElement class="drawer__grip" />
+                <ui:Label text="FIELD ARCHIVE" class="drawer__title" />
+                <ui:Label name="drawer-count" text="2 / 4" class="drawer__count" />
+                <ui:Label name="drawer-close" text="×" class="drawer__x" />
+            </ui:VisualElement>
+            <ui:VisualElement name="drawer-chips" class="drawer__chips">
+                <ui:Label name="fchip-all" text="All" class="fchip fchip--on" />
+                <ui:Label name="fchip-people" text="People" class="fchip" />
+                <ui:Label name="fchip-world" text="World" class="fchip" />
+                <ui:Label name="fchip-artifacts" text="Artifacts" class="fchip" />
+                <ui:Label name="fchip-threads" text="Threads" class="fchip" />
+            </ui:VisualElement>
+            <ui:ScrollView name="drawer-scroll" class="drawer__scroll">
+                <ui:Label text="RECENT &amp; CURRENT" class="drawer__section" />
+                <ui:VisualElement name="drawer-feed">
+                    <ui:VisualElement class="fentry">
+                        <ui:VisualElement class="frow">
+                            <ui:VisualElement class="token">
+                                <ui:VisualElement class="token__frame token__frame--green">
+                                    <ui:VisualElement class="token__inner">
+                                        <ui:VisualElement class="glyph-circle" style="width: 32px; height: 32px;" />
+                                    </ui:VisualElement>
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                            <ui:VisualElement class="frow__body">
+                                <ui:VisualElement class="frow__name-row">
+                                    <ui:Label text="Wind chorus" class="frow__name" />
+                                </ui:VisualElement>
+                                <ui:VisualElement class="frow__meta">
+                                    <ui:Label text="WORLD" class="tag tag--world" />
+                                    <ui:Label text="OBSERVED" class="frow__status" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                            <ui:Label text="›" class="frow__chev" />
+                        </ui:VisualElement>
+                        <ui:VisualElement class="fentry__expand">
+                            <ui:VisualElement class="dsection" style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; margin-bottom: 2px; margin-top: 2px;">
+                                <ui:Label text="OBSERVED" class="dsection__label" />
+                                <ui:Label text="The grove hums when the morning wind threads the hollow reeds." class="dsection__body" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="drawer-divider" class="drawer__divider" />
+                <ui:Label name="drawer-locked-label" text="UNDISCOVERED" class="drawer__section" />
+                <ui:VisualElement name="drawer-locked">
+                    <ui:VisualElement class="frow frow--locked">
+                        <ui:VisualElement class="token">
+                            <ui:VisualElement class="token__frame token__frame--locked">
+                                <ui:VisualElement class="token__inner">
+                                    <ui:VisualElement class="glyph-lock" style="rotate: 8deg; -unity-background-image-tint-color: rgba(0, 0, 0, 0.41);" />
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                        <ui:VisualElement class="frow__body">
+                            <ui:Label text="Unknown" class="frow__name frow__name--locked" />
+                            <ui:Label text="Something is humming out there." class="frow__hint" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
