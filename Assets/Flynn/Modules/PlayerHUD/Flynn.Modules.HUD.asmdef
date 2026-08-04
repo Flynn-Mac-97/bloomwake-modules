@@ -1,10 +1,11 @@
 {
-    "name": "Flynn.Npc",
-    "rootNamespace": "Flynn.Npc",
+    "name": "Flynn.Modules.HUD",
+    "rootNamespace": "Flynn.Feel",
     "references": [
-        "Flynn.Base",
-        "Flynn.Contracts",
-        "Unity.TextMeshPro"
+        "Flynn.Feel",
+        "PrimeTween.Runtime",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

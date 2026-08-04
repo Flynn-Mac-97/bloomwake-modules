@@ -13,7 +13,7 @@ committed, including `ProjectSettings` and `Packages/manifest.json`.
 |---|---|---|
 | `Flynn.Contracts` | `Assets/Flynn/Contracts` | Cross-module interfaces only. No behaviour. |
 | `Flynn.Base` | `Assets/Flynn/Base` | Shared floor: event bus, sorting, world items, hover, item data. |
-| `Flynn.Npc` | `Assets/Flynn/Scripts/NPC` | The LLM/NPC stack — dialogue brain, memory (LiteDB), prompts, island content. |
+| `Flynn.Npc` | `Assets/Flynn/Modules/DialogueLLM` | The LLM/NPC stack — dialogue brain, memory (LiteDB), prompts, island content, and the bridge that renders it through the cozy UI. |
 | `Flynn.Modules.Dialogue` | `Assets/Flynn/Modules/CozyDialogue` | The cozy dialogue UI: field dialogue box, Field Archive drawer, barks, knowledge base. |
 | `Flynn.Modules.ResourceNodes` | `Assets/Flynn/Modules/ResourceNodes` | Harvestable, regrowing nodes spawned from a map JSON. |
 | `Flynn.Modules.PlayerRig` | `Assets/Flynn/Modules/PlayerRig` | Player movement, sprite animation, swing, camera. |
@@ -27,6 +27,10 @@ Dependencies point **inward only**: `Contracts <- Base <- Npc`, and the modules 
 
 ## Scenes to start from
 
+- **`Assets/Flynn/Modules/DialogueLLM/Scenes/DialogueLLM_Demo.unity` — start here.** Press **T**
+  to talk to the NPC, type, Enter to send, Esc to leave. The reply is rendered by CozyDialogue's
+  `FieldDialogue`, not by the LLM module's own panel. The on-screen readout tells you whether an
+  API key was found before you start wondering why the answers look canned.
 - `Assets/Flynn/Modules/PlayerRig/PlayerRig_Lab.unity` — walk around, swing.
 - `Assets/Flynn/Modules/ResourceNodes/ResourceNodes_Lab.unity` — one of every harvestable kind.
 - `Assets/Flynn/Modules/CozyDialogue/Scenes/Dialogue_Test.unity` — the dialogue box on its own.
@@ -63,8 +67,9 @@ These are honest, not oversights:
 
 - `FieldArchive.knowledge` is unassigned on `CozyDialogueUI.prefab`. Opening the Field Archive
   drawer without assigning a `KnowledgeBase` will throw a null reference.
-- The LLM stack and the cozy dialogue UI are **not wired to each other**. `Flynn.Npc` renders
-  through its own UI Toolkit panel; the cozy UI is driven separately. Connecting them is open work.
+- The LLM↔UI bridge is **new and only smoke-tested**: the scene builds, compiles and hooks up, but
+  a full conversation has not been played through against a live model here. Expect to tune the
+  `thinkingLine` and the leave/close behaviour once you hear it talk.
 - Two `Flynn.Npc` data assets reference missing scripts, and one CozyDialogue UXML has a dangling
   template reference.
 - The parent game's composed scene is not here, so some prefabs expect managers that only exist

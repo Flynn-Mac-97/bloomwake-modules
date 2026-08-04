@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a93faed5b7f7594588d75bea6c8838e, type: 3}
+  m_Name: HUDStyle
+  m_EditorClassIdentifier: 
+  panelSprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  circleSprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  font: {fileID: 11400000, guid: 3fc371bec630c784293fba7eb3c0a54c, type: 2}
+  ruleWeight: 2.2
+  emptySlotAlpha: 0.45
+  slotSize: 72
+  slotGap: 10
+  mainSlots: 3
+  toolSlots: 1
+  barBottomMargin: 28
+  barGapBetween: 30
+  hotkeySize: 18
+  countSize: 20
+  iconInset: 10
+  batteryWidth: 280
+  batteryHeight: 24
+  batteryMargin: 28
+  batteryStart: 0.7
+  chargeRate: 0.12
+  lowThreshold: 0.2
+  chipLagDelay: 0.35
+  chipLagDuration: 0.5
+  chargePulsePeriod: 1.6
+  flyDuration: 0.45
+  flyArcHeight: 90
+  landPunch: 0.22
+  punchDuration: 0.3
+  refuseShakeAmplitude: 9
+  refuseShakeDuration: 0.35
+  dragLiftScale: 1.12
+  pickupSfx: {fileID: 8300000, guid: d3515fd75c5d28c4ea5db0d99beaea55, type: 3}
+  dropSfx: {fileID: 8300000, guid: 514621fda99628543b519eac0729fbc3, type: 3}
+  grabSfx: {fileID: 8300000, guid: cb64fe36a4fe50c4ea64356f34f5e324, type: 3}
+  placeSfx: {fileID: 8300000, guid: 0ff81bafab66a274c98bdb9dcf58a09f, type: 3}
+  refuseSfx: {fileID: 8300000, guid: d2412567d208f5f448e352ffa9f8589b, type: 3}
+  selectSfx: {fileID: 8300000, guid: 3b6ffcda0a7f13c45b60aec7f9c564d5, type: 3}
+  gainTickSfx: {fileID: 8300000, guid: 49837938db3fedd4bab94c65892aa36a, type: 3}
+  fullChimeSfx: {fileID: 8300000, guid: 4a5d73b61951bd341ad15ce9f833d484, type: 3}
+  actionVolume: 0.55
+  infoVolume: 0.3
+  pitchJitter: 0.08
+  sfxMinInterval: 0.07

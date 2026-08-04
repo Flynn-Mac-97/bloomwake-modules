@@ -1,0 +1,28 @@
+﻿{
+    "name":  "Flynn.Modules.PouchHud",
+    "rootNamespace":  "Flynn.Modules.PouchHud",
+    "references":  [
+                       "Flynn.Modules.HUD",
+                       "Flynn.Base",
+                       "Flynn.PlayerInventory"
+                   ],
+    "includePlatforms":  [
+
+                         ],
+    "excludePlatforms":  [
+
+                         ],
+    "allowUnsafeCode":  false,
+    "overrideReferences":  false,
+    "precompiledReferences":  [
+
+                              ],
+    "autoReferenced":  true,
+    "defineConstraints":  [
+
+                          ],
+    "versionDefines":  [
+
+                       ],
+    "noEngineReferences":  false
+}

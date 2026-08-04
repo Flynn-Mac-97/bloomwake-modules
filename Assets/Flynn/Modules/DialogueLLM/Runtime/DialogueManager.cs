@@ -124,7 +124,13 @@ namespace Flynn.Npc
             ApplyPlayerPortraitSprite();
             _playerInput.value = string.Empty;
             ClearSuggestions();
-            if (!_hideOwnPanel) _panel.RemoveFromClassList("hidden");
+            /* When another surface renders this conversation (see LlmCozyDialogueBridge), the
+               brain still needs real VisualElements to write into, but must never show them.
+               display:none is set inline rather than trusting the "hidden" USS class, because
+               that class lives in a stylesheet this module does not ship - without it the
+               unstyled fallback panel would sit visible on top of the real UI. */
+            if (_hideOwnPanel) _panel.style.display = DisplayStyle.None;
+            else _panel.RemoveFromClassList("hidden");
             IsDialogueOpen = true;
             LockPlayerMovement(true, npcWorldPosition);
             RefreshTrustDisplay();

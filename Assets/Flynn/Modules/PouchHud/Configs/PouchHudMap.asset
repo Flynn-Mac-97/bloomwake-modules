@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48021c350b52ed645aa1af342c7c0ae0, type: 3}
+  m_Name: PouchHudMap
+  m_EditorClassIdentifier: 
+  _rows:
+  - item: {fileID: 11400000, guid: 8f57a92745f4c1947a58172032f705e2, type: 2}
+    hudItem: {fileID: 11400000, guid: dacdc6865a7767045bceaf19d0c94aa9, type: 2}
+  - item: {fileID: 11400000, guid: b3c180ef48b8c684490a7ffaf79ecd2f, type: 2}
+    hudItem: {fileID: 11400000, guid: b13416633027a57458e12718d3fbd2ec, type: 2}
+  - item: {fileID: 11400000, guid: fda1bf0fabfc174459f00bb6c63d1b9d, type: 2}
+    hudItem: {fileID: 11400000, guid: e732cddba4ed7e541bc32fe3712aa923, type: 2}
+  - item: {fileID: 11400000, guid: f37c85490c9b1204182130b87e09cf36, type: 2}
+    hudItem: {fileID: 11400000, guid: 456e5899a5b9ac647a96c78e5dfc0972, type: 2}
+  - item: {fileID: 11400000, guid: b5a56e57334176447b498384cf4a11d9, type: 2}
+    hudItem: {fileID: 11400000, guid: 49bba6bce27464849aaf90485547a4f2, type: 2}

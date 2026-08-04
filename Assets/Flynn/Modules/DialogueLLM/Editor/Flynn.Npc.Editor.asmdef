@@ -1,0 +1,30 @@
+﻿{
+    "name":  "Flynn.Npc.Editor",
+    "rootNamespace":  "",
+    "references":  [
+                       "Flynn.Base",
+                       "Flynn.Npc",
+                       "Flynn.Modules.Dialogue",
+                       "Flynn.Feel",
+                       "Flynn.Contracts"
+                   ],
+    "includePlatforms":  [
+                             "Editor"
+                         ],
+    "excludePlatforms":  [
+
+                         ],
+    "optionalUnityReferences":  [
+
+                                ],
+    "autoReferenced":  false,
+    "defineConstraints":  [
+
+                          ],
+    "versionDefines":  [
+
+                       ],
+    "precompiledReferences":  [
+
+                              ]
+}
