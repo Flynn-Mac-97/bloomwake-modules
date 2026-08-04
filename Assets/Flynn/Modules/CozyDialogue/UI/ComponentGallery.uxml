@@ -2,7 +2,6 @@
     <ui:Template name="TplDialogue" src="project://database/Assets/Flynn/Modules/CozyDialogue/UI/Dialogue.uxml?fileID=9197481963319205126&amp;guid=1e98acc9168843140ad363061b0e6db8&amp;type=3#Dialogue" />
     <ui:Template name="TplDrawer" src="project://database/Assets/Flynn/Modules/CozyDialogue/UI/Drawer.uxml?fileID=9197481963319205126&amp;guid=2125bc7d260ca1545a8bc0389a8e9580&amp;type=3#Drawer" />
     <ui:Template name="TplTopBar" src="project://database/Assets/Flynn/Modules/CozyDialogue/UI/TopBar.uxml?fileID=9197481963319205126&amp;guid=4296aaa33fc4724498f67a837072ca8d&amp;type=3#TopBar" />
-    <ui:Template name="TplDecode" src="project://database/Assets/Flynn/Modules/CozyDialogue/UI/Decode.uxml?fileID=9197481963319205126&amp;guid=54cd5c3bb7f1239429cd180d7d4be46d&amp;type=3#Decode" />
     <ui:Template name="TplAlert" src="project://database/Assets/Flynn/Modules/CozyDialogue/UI/Alert.uxml?fileID=9197481963319205126&amp;guid=f6c5e33ae7dc7bc469991e37acf6784c&amp;type=3#Alert" />
     <ui:Template name="TplBark" src="project://database/Assets/Flynn/Modules/CozyDialogue/UI/Bark.uxml?fileID=9197481963319205126&amp;guid=35da1acf2cc20bb4b95cf2181b6386a2&amp;type=3#Bark" />
     <ui:Template name="TplHoverCue" src="project://database/Assets/Flynn/Modules/CozyDialogue/UI/HoverCue.uxml?fileID=9197481963319205126&amp;guid=5803a19d6faee144b8108ca5f69eddd6&amp;type=3#HoverCue" />
@@ -27,11 +26,6 @@
                 <ui:VisualElement class="gal-frame">
                     <ui:VisualElement class="gal-frame__inner">
                         <ui:Instance template="TplTopBar" class="gal-fill" />
-                    </ui:VisualElement>
-                </ui:VisualElement>
-                <ui:VisualElement class="gal-frame">
-                    <ui:VisualElement class="gal-frame__inner">
-                        <ui:Instance template="TplDecode" class="gal-fill" />
                     </ui:VisualElement>
                 </ui:VisualElement>
             </ui:VisualElement>
