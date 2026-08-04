@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Flynn/Modules/DialogueLLM/Scenes/Community_Demo.unity
+    guid: 62209477b38ebd24ea07ce89d3c17466
+  - enabled: 1
     path: Assets/Flynn/Modules/DialogueLLM/Scenes/DialogueLLM_Demo.unity
     guid: b15c3c9a47e76e84cbccced33f390380
   - enabled: 0

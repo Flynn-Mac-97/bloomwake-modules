@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b827605487753674b8e6278d9169dc16, type: 3}
+  m_Name: MosslightTopics
+  m_EditorClassIdentifier: 
+  topics:
+  - id: learn.spring
+    displayName: The warm spring
+    summary: A knee-deep pool at the centre of the clearing. It runs warm all year
+      and has never frozen. Maren waters her seedlings from it and they come up a
+      week early.
+    lockedHint: Someone here must know why the water never freezes.
+    corrupted: 0
+    category: 0
+  - id: learn.mast
+    displayName: The relay mast
+    summary: A lattice mast on the ridge that used to carry messages between isles.
+      Silent for a season. Bode climbs to it most mornings.
+    lockedHint: There is a mast on the ridge, and it is quiet.
+    corrupted: 0
+    category: 0
+  - id: learn.bees
+    displayName: The bee hollow
+    summary: A split log at the meadow's edge that a wild colony claimed two summers
+      ago. Maren takes only what the bees can spare, late in the day when they are
+      slow.
+    lockedHint: Something is humming at the meadow's edge.
+    corrupted: 0
+    category: 0
+  - id: learn.kiln
+    displayName: The old kiln
+    summary: A stone kiln at the north edge, cold for years. Bode is rebuilding its
+      chimney with ridge stone because it draws better than the old brick.
+    lockedHint: There is a cold kiln at the north edge.
+    corrupted: 0
+    category: 2
+  - id: learn.maren
+    displayName: Maren
+    summary: Herbalist and bee-keeper of the clearing. She tends the herbs on the
+      south bank, the bee hollow, and an orchard that never quite took.
+    lockedHint: Someone here keeps the growing things.
+    corrupted: 0
+    category: 1
+  - id: learn.bode
+    displayName: Bode
+    summary: Salvager and mender. Hinges, pumps, aerials - if it used to work and
+      now it does not, it reaches his bench.
+    lockedHint: Someone here mends what breaks.
+    corrupted: 0
+    category: 1
+  - id: learn.mast_secret
+    displayName: Why the mast went silent
+    summary: 'Bode pulled the mast''s feed line himself, the night it began repeating
+      a message that was not theirs: a voice counting slowly, in no language he knew.
+      Maren does not know.'
+    lockedHint: Bode goes up to the mast every morning and comes back saying nothing.
+    corrupted: 0
+    category: 2
