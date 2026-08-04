@@ -51,6 +51,8 @@ namespace Flynn.Modules.DialogueLLM.EditorTools
             var panelSettings = Load<PanelSettings>("Assets/Flynn/Modules/CozyDialogue/UI/FieldPanelSettings.asset");
             if (panelSettings != null) doc.panelSettings = panelSettings;
             else Debug.LogError("[demo] FieldPanelSettings not found.");
+            // Both documents share one panel; keep the hidden one strictly underneath the cozy UI.
+            doc.sortingOrder = -100;
 
             var llm = brainGo.AddComponent<SceneLlmManager>();
             llm.provider = LlmProvider.OpenRouter;

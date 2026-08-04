@@ -1231,6 +1231,21 @@ namespace Flynn.Npc
             }
 
             _panel.AddToClassList("hidden");
+
+            /* The "hidden" class above only hides anything if a stylesheet defines it, and this
+               module ships no stylesheet - so when another surface is rendering the conversation
+               the fallback panel would otherwise sit VISIBLE and full-size from Start, on top of
+               the cozy UI, blanking its text and flattening its layout.
+
+               Hide it inline instead, at bind time rather than at OpenAgent time, because the
+               panel exists from Start. Also stop the (still full-size) document root from
+               swallowing clicks meant for the UI underneath: both documents share one panel. */
+            if (_hideOwnPanel)
+            {
+                _panel.style.display = DisplayStyle.None;
+                _root.pickingMode = PickingMode.Ignore;
+            }
+
             _isBound = true;
             return true;
         }
