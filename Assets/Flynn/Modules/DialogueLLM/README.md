@@ -17,7 +17,8 @@ Open **`Scenes/Community_Demo.unity`** and press Play.
 Ask about the spring, the mast, the bees, the kiln — or about each other. Things you are actually
 told appear in the Field Guide as you learn them.
 
-`Scenes/DialogueLLM_Demo.unity` is the barer version: one NPC, no knowledge wiring.
+There is one island (`mosslight_clearing.json`) and one scene, on purpose — the module is easier
+to read with a single worked example than with several half-built ones.
 
 ### Setting the API key
 
@@ -128,4 +129,6 @@ elsewhere, rather than pretending ignorance.
   the UI renders; the first real exchange is still unproven.
 - `PlayerCodex` captures *all* `memory_updates` with no quality gate — a known issue, see
   `NPC_Memory.md`.
-- `Configs/NpcMemoryStore_slot_0.asset` ships with whatever was in it. Delete it for a clean slate.
+- No memory store ships with the module; `NpcMemoryDatabase` creates one on first run
+  (`saveSlotId`, default `slot_0`). Delete that asset any time you want a clean slate — the NPCs
+  will have forgotten you.

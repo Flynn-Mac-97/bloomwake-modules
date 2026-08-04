@@ -27,10 +27,11 @@ Dependencies point **inward only**: `Contracts <- Base <- Npc`, and the modules 
 
 ## Scenes to start from
 
-- **`Assets/Flynn/Modules/DialogueLLM/Scenes/DialogueLLM_Demo.unity` — start here.** Press **T**
-  to talk to the NPC, type, Enter to send, Esc to leave. The reply is rendered by CozyDialogue's
-  `FieldDialogue`, not by the LLM module's own panel. The on-screen readout tells you whether an
-  API key was found before you start wondering why the answers look canned.
+- **`Assets/Flynn/Modules/DialogueLLM/Scenes/Community_Demo.unity` — start here.** Two LLM NPCs in
+  Mosslight Clearing. **1**/**2** to talk, type, Enter to send, Esc to leave, **Y** for the Field
+  Guide. Replies render through CozyDialogue's `FieldDialogue`, and anything an NPC actually
+  teaches you appears in the Field Guide as you learn it. The on-screen readout says whether an
+  API key was found, so a fallback line isn't mistaken for a broken model.
 - `Assets/Flynn/Modules/PlayerRig/PlayerRig_Lab.unity` — walk around, swing.
 - `Assets/Flynn/Modules/ResourceNodes/ResourceNodes_Lab.unity` — one of every harvestable kind.
 - `Assets/Flynn/Modules/CozyDialogue/Scenes/Dialogue_Test.unity` — the dialogue box on its own.
